@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FastFoodSignalR.Entity/1.0.0": {
+        "runtime": {
+          "FastFoodSignalR.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FastFoodSignalR.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

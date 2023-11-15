@@ -1,0 +1,5 @@
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.BusinessLayer\obj\Debug\net6.0\FastFoodSignalR.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.BusinessLayer\obj\Debug\net6.0\FastFoodSignalR.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.BusinessLayer\obj\Debug\net6.0\FastFoodSignalR.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.BusinessLayer\obj\Debug\net6.0\FastFoodSignalR.BusinessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.BusinessLayer\obj\Debug\net6.0\FastFoodSignalR.BusinessLayer.csproj.CoreCompileInputs.cache

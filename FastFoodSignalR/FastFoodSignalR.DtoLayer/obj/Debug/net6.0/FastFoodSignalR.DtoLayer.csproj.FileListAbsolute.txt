@@ -1,0 +1,12 @@
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\bin\Debug\net6.0\FastFoodSignalR.DtoLayer.deps.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\bin\Debug\net6.0\FastFoodSignalR.DtoLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\bin\Debug\net6.0\FastFoodSignalR.DtoLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\refint\FastFoodSignalR.DtoLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\ref\FastFoodSignalR.DtoLayer.dll

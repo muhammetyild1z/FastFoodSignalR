@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NAW8o2Lkh4XKkXAuJg/dQnzBdunsFjx671fmKoGTUHrXzQUl1EAX50F23Tu8lo9km9uxVPqvadG5YGWGgxy8gQ==",
+  "dgSpecHash": "tahmGSvVXH6ds+9r5Pma4SGB0DoI48vnLC6y/bnjTfZxXdMuGGEtXU5Ku76Hb9/XdXxmg9uxAweq/073Vqid3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\SignalRAPI\\SignalRAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\muham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\muham\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\muham\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\muham\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.21\\microsoft.entityframeworkcore.6.0.21.nupkg.sha512",
