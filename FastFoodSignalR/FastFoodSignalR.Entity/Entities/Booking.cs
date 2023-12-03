@@ -1,7 +1,12 @@
-﻿namespace FastFoodSignalR.Entity.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace FastFoodSignalR.Entity.Entities
 {
     public class Booking
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int BookindID { get; set; }
         public string BookingName { get; set; }
         public string BookingPhone { get; set; }

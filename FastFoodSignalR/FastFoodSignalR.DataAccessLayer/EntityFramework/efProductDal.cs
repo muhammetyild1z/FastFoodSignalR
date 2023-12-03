@@ -2,6 +2,7 @@
 using FastFoodSignalR.DataAccessLayer.Concrate;
 using FastFoodSignalR.DataAccessLayer.Repositories;
 using FastFoodSignalR.Entity.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,17 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 {
     public class efProductDal : GenericRepository<Product>, IProductDal
     {
+       
         public efProductDal(FastFoodContext context) : base(context)
         {
         }
-    }
+
+    
+
+        public List<Product> GetProductWithCategories()
+        {
+            FastFoodContext _context = new FastFoodContext();
+            return  _context.Products.Include(x => x.Category).ToList();
+        }
+}
 }

@@ -1,6 +1,8 @@
 ﻿using FastFoodSignalR.BusinessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Abstract;
+using FastFoodSignalR.DataAccessLayer.Concrate;
 using FastFoodSignalR.Entity.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +38,12 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
         public List<Product> TGetListAll()
         {
             return _productDal.GetListAll();
+        }
+
+        public List<Product> TGetProductWithCategories()
+        {
+           return _productDal.GetProductWithCategories();
+
         }
 
         public void Update(Product entity, Product unchanged)

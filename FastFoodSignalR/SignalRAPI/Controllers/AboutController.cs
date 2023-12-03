@@ -19,37 +19,42 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("test")]
+        [HttpGet("ListAbout")]
         public IActionResult AboutList()
         {
             var values = _aboutService.TGetListAll();
             return Ok(values);
         }
-        [HttpPost("ekle")]
+
+        [HttpGet("GetByIdAbout")]
+        public IActionResult GetByIdAbout(int id)
+        {
+            var value = _aboutService.TGetById(id);
+            return Ok(value);
+        }
+
+        [HttpPost("CreateAbout")]
         public IActionResult CreateAbout(CreateAboutDto createAboutDto)
         {
             _aboutService.TAdd(_mapper.Map<About>(createAboutDto));
             return Ok("Ekleme Basarili..");
         }
-        [HttpPut("guncelle")]
+
+        [HttpPut("UpdateAbout")]
         public IActionResult UpdateAbout(int id , UpdateAboutDto updateAboutDto)
         {
             var value=_aboutService.TGetById(id);
             _aboutService.Update(_mapper.Map<About>(updateAboutDto), value);
             return Ok();
         }
-        [HttpDelete("sil")]
+
+        [HttpDelete("DeleteAbout")]
         public IActionResult DeleteAbout(int id)
         { 
             var value= _aboutService.TGetById(id);
             _aboutService.TDelete(value);
             return Ok("Silme Basarili");
         }
-        [HttpGet("GetByIdAbout")]
-        public IActionResult GetByIdAbout(int id)
-        {
-            var value=_aboutService.TGetById(id);
-            return Ok(value);
-        }
+     
     }
 }

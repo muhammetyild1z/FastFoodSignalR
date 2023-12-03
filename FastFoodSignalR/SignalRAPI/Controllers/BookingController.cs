@@ -17,39 +17,41 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
+        [HttpGet("ListBooking")]
         public IActionResult GetBooking()
         {
             var value = _bookingservice.TGetListAll();
             return  Ok(value);
         }
-        [HttpPost]
+
+        [HttpGet("GetByIdBooking")]
+        public IActionResult GetByIdBooking(int id)
+        {
+            var value = _bookingservice.TGetById(id);
+            return Ok(value);
+        }
+
+        [HttpPost("CreateBooking")]
         public IActionResult CreateBooking(CreateBookingDto createBookingDto)
         {
           _bookingservice.TAdd(_mapper.Map<Booking>(createBookingDto));
-
-
-
             return Ok("Rezervasyon Eklendi");
         }
-        [HttpPut]
+
+        [HttpPut("UpdateBooking")]
         public IActionResult UpdateBooking(int id, UpdateBookingDto updateBookingDto)
         {
             var value = _bookingservice.TGetById(id);
             _bookingservice.Update(_mapper.Map<Booking>(updateBookingDto), value);
             return Ok("Rezervasyon Guncellendi");
         }
-        [HttpDelete]
+
+        [HttpDelete("DeleteBooking")]
         public IActionResult DeleteBooking(int id)
         {
             _bookingservice.TDelete(_bookingservice.TGetById(id));  
             return Ok("silme basarili");
         }
-        [HttpGet("GetByIdBooking")]
-        public IActionResult GetByIdBooking(int id)
-        {
-           var value= _bookingservice.TGetById(id);
-            return Ok(value);
-        }
+     
     }
 }

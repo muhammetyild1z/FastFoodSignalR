@@ -184,6 +184,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"), 1L, 1);
 
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
                     b.Property<string>("ProductDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -202,7 +205,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<bool>("ProductStatus")
                         .HasColumnType("bit");
 
-                    b.HasKey("ProductID");
+                    b.HasKey("ProductID", "CategoryID");
+
+                    b.HasIndex("CategoryID");
 
                     b.ToTable("Products");
                 });
@@ -262,6 +267,22 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.HasKey("TestimonialID");
 
                     b.ToTable("Testimonials");
+                });
+
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Product", b =>
+                {
+                    b.HasOne("FastFoodSignalR.Entity.Entities.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
