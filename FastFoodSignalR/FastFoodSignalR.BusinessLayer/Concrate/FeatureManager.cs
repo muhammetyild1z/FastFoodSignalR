@@ -40,7 +40,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
 
         public void Update(Feature entity, Feature unchanged)
         {
-            _featureService.Update(entity, unchanged);
+            _feature.Update(entity, unchanged);
         }
     }
 }

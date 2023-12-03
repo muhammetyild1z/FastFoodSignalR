@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FastFoodSignalR.BusinessLayer.Concrate
 {
-    public class TestimonialManager : IGenericService<Testimonial>
+    public class TestimonialManager : ITestimonialService
     {
         ITestimonialDal _testimonial;
 
@@ -31,7 +31,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
 
         public Testimonial TGetById(int Id)
         {
-            return _testimonial.GetById(Id);
+           return _testimonial.GetById(Id);
         }
 
         public List<Testimonial> TGetListAll()

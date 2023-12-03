@@ -13,5 +13,6 @@ namespace SignalRAPI.Mapping
             CreateMap<About,ResultAboutDto>().ReverseMap();
             CreateMap<About,GetAboutDto>().ReverseMap();
         }
+       
     }
 }

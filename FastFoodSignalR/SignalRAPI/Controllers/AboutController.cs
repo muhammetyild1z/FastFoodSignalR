@@ -1,5 +1,8 @@
-﻿using FastFoodSignalR.BusinessLayer.Abstract;
+﻿using AutoMapper;
+using FastFoodSignalR.BusinessLayer.Abstract;
 using FastFoodSignalR.DtoLayer.AboutDto;
+using FastFoodSignalR.DtoLayer.BookingDto;
+using FastFoodSignalR.Entity.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
@@ -8,11 +11,14 @@ namespace SignalRAPI.Controllers
     {
 
         private readonly IAboutService _aboutService;
+        private readonly IMapper _mapper;
 
-        public AboutController(IAboutService aboutService)
+        public AboutController(IAboutService aboutService, IMapper mapper)
         {
             _aboutService = aboutService;
+            _mapper = mapper;
         }
+
         [HttpGet]
         public IActionResult AboutList()
         {
@@ -22,14 +28,14 @@ namespace SignalRAPI.Controllers
         [HttpPost]
         public IActionResult CreateAbout(CreateAboutDto createAboutDto)
         {
-            _aboutService.TAdd(_aboutService);
+            _aboutService.TAdd(_mapper.Map<About>(createAboutDto));
             return Ok("Ekleme Basarili..");
         }
         [HttpPut]
         public IActionResult UpdateAbout(int id , UpdateAboutDto updateAboutDto)
         {
             var value=_aboutService.TGetById(id);
-            _aboutService.Update(updateAboutDto, value);
+            _aboutService.Update(_mapper.Map<About>(updateAboutDto), value);
             return Ok();
         }
         [HttpDelete]
