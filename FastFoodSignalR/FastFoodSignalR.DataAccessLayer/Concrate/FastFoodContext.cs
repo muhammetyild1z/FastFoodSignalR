@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace FastFoodSignalR.DataAccessLayer.Concrate
 {
-    public class FastFoodContext:DbContext
+    public class FastFoodContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-CH9SD0T; initial Catalog=FastFoodSignalRDB;Integrated Security=true") ;
+            optionsBuilder.UseSqlServer("server=DESKTOP-CH9SD0T; initial Catalog=FastFoodSignalRDB;Integrated Security=true");
 
         }
         public DbSet<About> Abouts { get; set; }
@@ -24,5 +24,19 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
         public DbSet<Product> Products { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<About>().HasKey(x => x.AboutID);
+            modelBuilder.Entity<Booking>().HasKey(x => x.BookindID);
+            modelBuilder.Entity<Category>().HasKey(x => x.CategoryID);
+            modelBuilder.Entity<Discount>().HasKey(x => x.DiscountID);
+            modelBuilder.Entity<Feature>().HasKey(x => x.FeauteID);
+            modelBuilder.Entity<Product>().HasKey(x => x.ProductID);
+            modelBuilder.Entity<SocialMedia>().HasKey(x => x.SocialMediaID);
+            modelBuilder.Entity<Testimonial>().HasKey(x => x.TestimonialID);
+            
+        }
     }
+
 }

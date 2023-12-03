@@ -20,11 +20,13 @@ namespace FastFoodSignalR.DataAccessLayer.Repositories
         public void Add(T entity)
         {
             _context.Add(entity);
+            _context.SaveChanges(); 
         }
 
         public void Delete(T entity)
         {
             _context.Remove(entity);
+            _context.SaveChanges();
         }
 
         public T GetById(int Id)
