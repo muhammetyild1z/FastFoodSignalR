@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,11 +41,12 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _productDal.GetListAll();
         }
 
-        public List<Product> TGetProductWithCategories()
+        public Product TGetProductById(int id)
         {
-           return _productDal.GetProductWithCategories();
-
+          return (_productDal.GetListAll().Where(x=>x.ProductID==id).FirstOrDefault());
         }
+
+       
 
         public void Update(Product entity, Product unchanged)
         {

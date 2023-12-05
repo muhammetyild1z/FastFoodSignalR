@@ -3,6 +3,7 @@ using FastFoodSignalR.BusinessLayer.Concrate;
 using FastFoodSignalR.DataAccessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Concrate;
 using FastFoodSignalR.DataAccessLayer.EntityFramework;
+using FastFoodSignalR.Entity.Entities;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,9 +12,11 @@ builder.Services.AddDbContext<FastFoodContext>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-builder.Services.AddScoped<IAboutService,AboutManager>();
-builder.Services.AddScoped<IAboutDal,efAboutDal>();
+builder.Services.AddScoped<ICategoryAndProductService, CategoryAndProductManager>();
+builder.Services.AddScoped<ICategoryAndProductDal, efCategoryAndProductDal>();
 
+builder.Services.AddScoped<IAboutService, AboutManager>();
+builder.Services.AddScoped<IAboutDal, efAboutDal>();
 
 builder.Services.AddScoped<IBookingService, BookingManager>();
 builder.Services.AddScoped<IBookingDal, efBookingDal>();

@@ -1,0 +1,31 @@
+﻿@model List<ResultCategoryDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/Layout.cshtml";
+}
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Kategori Adi</th>
+            <th scope="col">Kategori Durumu</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Guncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryID</td>
+                <td>@item.CategoryName</td>
+                <td>@item.CategoryStatus</td>
+                <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="#" class="btn btn-outline-success">Guncelle</a></td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<a href="#" class="btn btn-outline-info">Yeni Kategori Olustur</a>

@@ -1,11 +1,7 @@
 ﻿using FastFoodSignalR.BusinessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Abstract;
 using FastFoodSignalR.Entity.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
 
 namespace FastFoodSignalR.BusinessLayer.Concrate
 {
@@ -37,6 +33,8 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
         {
             return _category.GetListAll();
         }
+
+       
 
         public void Update(Category entity, Category unchanged)
         {

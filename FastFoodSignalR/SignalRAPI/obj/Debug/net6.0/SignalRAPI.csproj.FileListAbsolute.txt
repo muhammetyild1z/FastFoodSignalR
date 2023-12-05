@@ -75,3 +75,4 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRA
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\FastFoodSignalR.DtoLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\FastFoodSignalR.DataAccessLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\FastFoodSignalR.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\obj\Debug\net6.0\SignalRAPI.MvcApplicationPartsAssemblyInfo.cs

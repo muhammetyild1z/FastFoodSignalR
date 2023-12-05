@@ -25,25 +25,28 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
         public DbSet<Product> Products { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<CategoryAndProduct> CategoryAndProducts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<About>().HasKey(x => x.AboutID);
             modelBuilder.Entity<Booking>().HasKey(x => x.BookindID);
-
-           modelBuilder.Entity<Category>().HasKey(x => x.CategoryID);
-           
-
+            modelBuilder.Entity<Category>().HasKey(x => x.CategoryID);
+            modelBuilder.Entity<Product>().HasKey(x => x.ProductID);
             modelBuilder.Entity<Discount>().HasKey(x => x.DiscountID);
             modelBuilder.Entity<Feature>().HasKey(x => x.FeauteID);
-
-            modelBuilder.Entity<Product>().HasKey(x => new {x.ProductID, x.CategoryID});
-            modelBuilder.Entity<Product>().HasOne(x => x.Category)
-               .WithMany(x => x.Products).HasForeignKey(x => x.CategoryID);
-
             modelBuilder.Entity<SocialMedia>().HasKey(x => x.SocialMediaID);
             modelBuilder.Entity<Testimonial>().HasKey(x => x.TestimonialID);
-            
+
+
+            modelBuilder.Entity<CategoryAndProduct>().HasKey(x => new { x.ProductID, x.CategoryID });
+            modelBuilder.Entity<CategoryAndProduct>().HasOne(x => x.Product)
+               .WithMany(x => x.CategoryAndProduct).HasForeignKey(x => x.ProductID);
+            modelBuilder.Entity<CategoryAndProduct>().HasOne(x => x.Category)
+              .WithMany(x => x.CategoryAndProduct).HasForeignKey(x => x.CategoryID);
+
+
+
         }
     }
 

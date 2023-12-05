@@ -98,6 +98,21 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.CategoryAndProduct", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductID", "CategoryID");
+
+                    b.HasIndex("CategoryID");
+
+                    b.ToTable("CategoryAndProducts");
+                });
+
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Contact", b =>
                 {
                     b.Property<int>("ContactID")
@@ -184,9 +199,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"), 1L, 1);
 
-                    b.Property<int>("CategoryID")
-                        .HasColumnType("int");
-
                     b.Property<string>("ProductDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -205,9 +217,7 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<bool>("ProductStatus")
                         .HasColumnType("bit");
 
-                    b.HasKey("ProductID", "CategoryID");
-
-                    b.HasIndex("CategoryID");
+                    b.HasKey("ProductID");
 
                     b.ToTable("Products");
                 });
@@ -269,20 +279,33 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
-            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Product", b =>
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.CategoryAndProduct", b =>
                 {
                     b.HasOne("FastFoodSignalR.Entity.Entities.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany("CategoryAndProduct")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("FastFoodSignalR.Entity.Entities.Product", "Product")
+                        .WithMany("CategoryAndProduct")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Category", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("CategoryAndProduct");
+                });
+
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Product", b =>
+                {
+                    b.Navigation("CategoryAndProduct");
                 });
 #pragma warning restore 612, 618
         }

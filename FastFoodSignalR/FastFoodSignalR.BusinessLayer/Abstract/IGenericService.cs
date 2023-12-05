@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,5 +15,6 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
         void Update(T entity, T unchanged);
         T TGetById(int Id);
         List<T> TGetListAll();
+       
     }
 }
