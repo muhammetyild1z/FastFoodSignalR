@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -31,7 +33,7 @@ namespace SignalRAPI.Controllers
             var value = _categoryService.TGetById(id);
             return Ok(value);
         }
-
+       
         [HttpPost("CreateCategory")]
         public IActionResult CreateCategory(CreateCategoryDto createCategoryDto)
         {
