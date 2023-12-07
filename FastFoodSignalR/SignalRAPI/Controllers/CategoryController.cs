@@ -27,7 +27,7 @@ namespace SignalRAPI.Controllers
             return Ok(values);
         }
 
-        [HttpGet("GetByIdCategory")]
+        [HttpGet("GetByIdCategory/{id}")]
         public IActionResult GetByIdCategory(int id)
         {
             var value = _categoryService.TGetById(id);
@@ -41,18 +41,22 @@ namespace SignalRAPI.Controllers
             return Ok("Ekleme Basarili..");
         }
 
-        [HttpPut("UpdateCategory")]
+        [HttpPut("UpdateCategory/{id}")]
         public IActionResult UpdateCategory(int id, UpdateCategoryDto updateCategoryDto)
         {
             var value = _categoryService.TGetById(id);
             _categoryService.Update(_mapper.Map<Category>(updateCategoryDto), value);
             return Ok();
         }
-
-        [HttpDelete("DeleteCategory")]
+       
+        [HttpDelete("DeleteCategory/{id}")]
         public IActionResult DeleteCategory(int id)
         {
             var value = _categoryService.TGetById(id);
+            if (value == null)
+            {
+                return NotFound(); 
+            }
             _categoryService.TDelete(value);
             return Ok("Silme Basarili");
         }

@@ -41,7 +41,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
 
       
 
-        public void Update(Booking entity, Booking unchanged)
+        public void Update(Booking entity , Booking unchanged)
         {
             _booking.Update(entity, unchanged);    
         }

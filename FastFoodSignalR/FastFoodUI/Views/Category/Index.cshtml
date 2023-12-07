@@ -16,16 +16,16 @@
     </thead>
     <tbody>
         @foreach (var item in Model)
-        {
+        {   
             <tr>
-                <td>@item.CategoryID</td>
+                <td> <input type="hidden" value="@item.CategoryID" /></td>
                 <td>@item.CategoryName</td>
                 <td>@item.CategoryStatus</td>
-                <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
-                <td><a href="#" class="btn btn-outline-success">Guncelle</a></td>
+                <td><a href="/Category/DeleteCategory/@item.CategoryID" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/Category/UpdateCategory/@item.CategoryID" class="btn btn-outline-success">Guncelle</a></td>
             </tr>
         }
-
+         @ViewBag.ErrorMessage
     </tbody>
 </table>
 

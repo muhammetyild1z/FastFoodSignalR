@@ -42,7 +42,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
 
      
 
-        public void Update(Testimonial entity, Testimonial unchanged)
+        public void Update(Testimonial entity , Testimonial unchanged)
         {
             _testimonial.Update(entity, unchanged);
         }

@@ -47,7 +47,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
            return _CategoryAndProduct.GetProductWithCategories();
         }
 
-        public void Update(CategoryAndProduct entity, CategoryAndProduct unchanged)
+        public void Update(CategoryAndProduct entity , CategoryAndProduct unchanged)
         {
             _CategoryAndProduct.Update(entity, unchanged);
         }

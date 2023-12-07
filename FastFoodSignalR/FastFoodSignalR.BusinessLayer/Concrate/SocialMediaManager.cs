@@ -40,7 +40,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
         }
 
 
-        public void Update(SocialMedia entity, SocialMedia unchanged)
+        public void Update(SocialMedia entity , SocialMedia unchanged)
         {
             _socialMedia.Update(entity, unchanged);
         }

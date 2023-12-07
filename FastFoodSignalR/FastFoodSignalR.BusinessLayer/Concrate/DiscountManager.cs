@@ -42,7 +42,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
        
       
 
-        public void Update(Discount entity, Discount unchanged)
+        public void Update(Discount entity , Discount unchanged)
         {
             _discount.Update(entity, unchanged);    
         }
