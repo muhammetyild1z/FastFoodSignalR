@@ -31,14 +31,14 @@ namespace FastFoodUI.Controllers
         {
             return View();
         }
+        
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
-            createCategoryDto.CategoryStatus = true;
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createCategoryDto);
-             StringContent stringContent= new StringContent(jsonData,Encoding.UTF8,"application/json");
-            var responseMessage = await client.PostAsync("https://localhost:7088/api/Category", stringContent);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("https://localhost:7088/api/Category/CreateCategory", stringContent);
             //client.BaseAddress = new  Uri("https://localhost:7088/");
 
             if (responseMessage.IsSuccessStatusCode)
@@ -48,12 +48,12 @@ namespace FastFoodUI.Controllers
             else
             {
                 var errorResponse = await responseMessage.Content.ReadAsStringAsync();
-                Console.WriteLine("Hata: " + errorResponse); 
-                                                             
-                return View();
-            }
+                Console.WriteLine("Hata: " + errorResponse);
 
-            
+               
+            }
+            return View();
+
         }
     }
 }
