@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FastFoodSignalR.BusinessLayer\FastFoodSignalR.BusinessLayer.csproj" />
+    <ProjectReference Include="..\FastFoodSignalR.Entity\FastFoodSignalR.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

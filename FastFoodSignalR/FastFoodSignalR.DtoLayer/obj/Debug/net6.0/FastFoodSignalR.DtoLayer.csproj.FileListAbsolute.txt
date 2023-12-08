@@ -10,3 +10,6 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFood
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\refint\FastFoodSignalR.DtoLayer.dll
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\ref\FastFoodSignalR.DtoLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\bin\Debug\net6.0\FastFoodSignalR.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\bin\Debug\net6.0\FastFoodSignalR.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.DtoLayer\obj\Debug\net6.0\FastFoodSignalR.DtoLayer.csproj.CopyComplete

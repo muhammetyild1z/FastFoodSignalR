@@ -11,5 +11,6 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
     {
        
         Product TGetProductById(int id);
+       
     }
 }

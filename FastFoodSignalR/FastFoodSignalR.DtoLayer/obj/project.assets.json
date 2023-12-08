@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "FastFoodSignalR.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FastFoodSignalR.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FastFoodSignalR.Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FastFoodSignalR.Entity/1.0.0": {
+      "type": "project",
+      "path": "../FastFoodSignalR.Entity/FastFoodSignalR.Entity.csproj",
+      "msbuildProject": "../FastFoodSignalR.Entity/FastFoodSignalR.Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "FastFoodSignalR.Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\muham\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj": {
+              "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

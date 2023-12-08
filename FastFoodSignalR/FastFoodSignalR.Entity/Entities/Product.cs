@@ -12,7 +12,8 @@ namespace FastFoodSignalR.Entity.Entities
         public string ProductDescription { get; set; }
         public decimal ProductPrice { get; set; }
         public string ProductImageUrl { get; set; }
-        public bool ProductStatus { get; set; }       
-        public List<CategoryAndProduct> CategoryAndProduct { get; set; }
+        public bool ProductStatus { get; set; }
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
     }
 }

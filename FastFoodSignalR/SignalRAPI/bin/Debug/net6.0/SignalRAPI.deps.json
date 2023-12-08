@@ -532,6 +532,9 @@
         }
       },
       "FastFoodSignalR.DtoLayer/1.0.0": {
+        "dependencies": {
+          "FastFoodSignalR.Entity": "1.0.0"
+        },
         "runtime": {
           "FastFoodSignalR.DtoLayer.dll": {}
         }

@@ -12,8 +12,6 @@ builder.Services.AddDbContext<FastFoodContext>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-builder.Services.AddScoped<ICategoryAndProductService, CategoryAndProductManager>();
-builder.Services.AddScoped<ICategoryAndProductDal, efCategoryAndProductDal>();
 
 builder.Services.AddScoped<IAboutService, AboutManager>();
 builder.Services.AddScoped<IAboutDal, efAboutDal>();

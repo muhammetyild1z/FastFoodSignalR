@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FastFoodSignalR.Entity.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace FastFoodSignalR.DtoLayer.ProductDto
         public decimal ProductPrice { get; set; }
         public string ProductImageUrl { get; set; }
         public bool ProductStatus { get; set; }
+      
     }
 }

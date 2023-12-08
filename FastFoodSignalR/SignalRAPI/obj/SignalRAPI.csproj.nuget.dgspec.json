@@ -167,7 +167,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj": {
+                "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

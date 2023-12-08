@@ -6,10 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ProductController : Controller
     {
         private readonly IProductService _productservice;     
         private readonly IMapper _mapper;
+
 
         public ProductController(IProductService productservice, IMapper mapper)
         {
@@ -17,12 +20,7 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
             
         }
-
-        [HttpGet("ListProduct")]
-        public IActionResult ListProduct()
-        {
-            return Ok(_productservice.TGetListAll());
-        }
+      
 
         [HttpGet("GetByIdProduct")]
         public IActionResult GetByIdProduct(int id)

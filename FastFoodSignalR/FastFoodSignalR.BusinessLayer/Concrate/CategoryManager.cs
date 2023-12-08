@@ -32,9 +32,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
         public List<Category> TGetListAll()
         {
             return _category.GetListAll();
-        }
-
-       
+        }     
 
         public void Update(Category entity, Category unchanged)
         {

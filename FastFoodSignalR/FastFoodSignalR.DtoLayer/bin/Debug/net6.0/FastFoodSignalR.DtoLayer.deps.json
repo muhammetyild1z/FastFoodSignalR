@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "FastFoodSignalR.DtoLayer/1.0.0": {
+        "dependencies": {
+          "FastFoodSignalR.Entity": "1.0.0"
+        },
         "runtime": {
           "FastFoodSignalR.DtoLayer.dll": {}
+        }
+      },
+      "FastFoodSignalR.Entity/1.0.0": {
+        "runtime": {
+          "FastFoodSignalR.Entity.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FastFoodSignalR.DtoLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastFoodSignalR.Entity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

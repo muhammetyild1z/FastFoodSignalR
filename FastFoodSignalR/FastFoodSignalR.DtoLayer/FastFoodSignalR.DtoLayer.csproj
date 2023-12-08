@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FastFoodSignalR.Entity\FastFoodSignalR.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

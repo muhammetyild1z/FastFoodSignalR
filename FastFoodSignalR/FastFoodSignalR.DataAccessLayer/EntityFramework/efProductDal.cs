@@ -13,13 +13,11 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 {
     public class efProductDal : GenericRepository<Product>, IProductDal
     {
-       
+
         public efProductDal(FastFoodContext context) : base(context)
         {
         }
 
-    
-
-       
-}
+      
+    }
 }
