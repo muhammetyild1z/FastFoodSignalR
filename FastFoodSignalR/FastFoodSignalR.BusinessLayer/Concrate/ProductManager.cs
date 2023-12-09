@@ -21,8 +21,6 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             _productDal = productDal;
         }
 
-
-
         public void TAdd(Product entity)
         {
             _productDal.Add(entity);
@@ -38,12 +36,16 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _productDal.GetById(Id);
         }
 
+        public List<Product> TGetIncludeProductWithCategory()
+        {
+            return
+                _productDal.GetIncludeProductWithCategory();
+        }
+
         public List<Product> TGetListAll()
         {
             return _productDal.GetListAll();
-        }
-
-       
+        }  
 
         public Product TGetProductById(int id)
         {

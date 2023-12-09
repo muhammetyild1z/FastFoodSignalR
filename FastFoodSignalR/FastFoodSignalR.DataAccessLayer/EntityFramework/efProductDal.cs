@@ -18,6 +18,11 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
         {
         }
 
-      
+        public List<Product> GetIncludeProductWithCategory()
+        {
+            FastFoodContext _context = new FastFoodContext();
+            return
+                _context.Products.Include(x=>x.Category).ToList();
+        }
     }
 }

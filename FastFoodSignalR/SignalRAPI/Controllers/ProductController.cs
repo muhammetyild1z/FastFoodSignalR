@@ -20,7 +20,12 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
             
         }
-      
+        [HttpGet("ListProduct")]
+        public IActionResult ListProduct()
+        {
+            var products = _productservice.TGetListAll();
+            return Ok(products);
+        }
 
         [HttpGet("GetByIdProduct")]
         public IActionResult GetByIdProduct(int id)
@@ -35,12 +40,12 @@ namespace SignalRAPI.Controllers
             return Ok("Urun Ekleme Basarili");
         }
 
-        [HttpPut("UpdateProduct")]
-        public IActionResult UpdateProduct(int id, UpdateProductDto updateProductDto)
+        [HttpPut("UpdateProduct/{id}")]
+        public IActionResult UpdateCategory(int id, UpdateProductDto updateProductDto)
         {
             var value = _productservice.TGetById(id);
             _productservice.Update(_mapper.Map<Product>(updateProductDto), value);
-            return Ok("Guncelleme Basarili");
+            return Ok();
         }
 
         [HttpDelete("DeleteProduct")]

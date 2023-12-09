@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AboutController : Controller
     {
 
