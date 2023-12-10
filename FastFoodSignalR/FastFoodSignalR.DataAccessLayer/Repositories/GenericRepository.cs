@@ -30,9 +30,9 @@ namespace FastFoodSignalR.DataAccessLayer.Repositories
             _context.SaveChanges();
         }
 
-        public T GetById(int Id)
+        public T GetById(int id)
         {
-          return _context.Set<T>().Find(Id);
+          return _context.Set<T>().Find(id);
         }
 
         public List<T> GetListAll()

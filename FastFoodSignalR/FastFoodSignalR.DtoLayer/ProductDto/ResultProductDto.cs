@@ -15,6 +15,7 @@ namespace FastFoodSignalR.DtoLayer.ProductDto
         public decimal ProductPrice { get; set; }
         public string ProductImageUrl { get; set; }
         public bool ProductStatus { get; set; }
-      
+        public Category Category { get; set; }
+
     }
 }

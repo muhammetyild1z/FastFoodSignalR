@@ -27,7 +27,7 @@ namespace SignalRAPI.Controllers
             return Ok(products);
         }
 
-        [HttpGet("GetByIdProduct")]
+        [HttpGet("GetByIdProduct/{id}")]
         public IActionResult GetByIdProduct(int id)
         {       
             return Ok(_productservice.TGetProductById(id));
@@ -41,18 +41,23 @@ namespace SignalRAPI.Controllers
         }
 
         [HttpPut("UpdateProduct/{id}")]
-        public IActionResult UpdateCategory(int id, UpdateProductDto updateProductDto)
+        public IActionResult UpdateCategory( UpdateProductDto updateProductDto)
         {
-            var value = _productservice.TGetById(id);
+            var value = _productservice.TGetById(updateProductDto.ProductID);
             _productservice.Update(_mapper.Map<Product>(updateProductDto), value);
             return Ok();
         }
 
-        [HttpDelete("DeleteProduct")]
+        [HttpDelete("DeleteProduct/{id}")]
         public IActionResult DeleteProduct(int id)
         {
-         
-            _productservice.TDelete(_productservice.TGetById(id));
+            var removeProduct = _productservice.TGetById(id);
+            if (removeProduct==null)
+            {
+                return BadRequest("Kullanici Bulunamadi..");
+            }
+            
+            _productservice.TDelete(removeProduct);
             return Ok("Silme Islemi Basarili");
         }
     }

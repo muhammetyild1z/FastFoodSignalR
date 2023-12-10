@@ -1,10 +1,8 @@
-﻿@model CreateProductDto
-
+﻿@model UpdateProductDto
 @{
-    ViewData["Title"] = "CreateProduct";
+    ViewData["Title"] = "UpdateProduct";
     Layout = "~/Views/Layout/Layout.cshtml";
 }
-
 
 <div class="card">
     <div class="card-header">
@@ -14,6 +12,9 @@
     <form method="post">
         <div class="card-body">
             <div class="form-group">
+
+                <input type="hidden"  asp-for="ProductID">
+
                 <label for="squareInput">Urun Adi</label>
                 <input type="text" class="form-control input-square" id="squareInput" placeholder="Urun Adi" asp-for="ProductName">
             </div>
@@ -21,7 +22,7 @@
                 <label for="squareInput">Urun Adi</label>
                 <input type="text" class="form-control input-square" id="squareInput" placeholder="Urun Aciklamasi" asp-for="ProductDescription">
             </div>
-               <div class="form-group">
+            <div class="form-group">
                 <label for="squareInput">Urun Fiyati</label>
                 <input type="text" class="form-control input-square" id="squareInput" placeholder="Urun Fiyati" asp-for="ProductPrice">
             </div>
@@ -36,9 +37,9 @@
                     {
                         <option value="@item.CategoryID">@item.CategoryName</option>
                     }
-                        
-                                                                                            
-               </select>
+
+
+                </select>
             </div>
             <div class="form-group">
                 <label for="squareSelect">Urun Durumu</label>
@@ -58,5 +59,4 @@
 
 
 </div>
-
 
