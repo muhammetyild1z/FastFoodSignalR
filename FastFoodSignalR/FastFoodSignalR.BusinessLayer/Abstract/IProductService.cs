@@ -11,6 +11,12 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
     {
         List<Product> TGetIncludeProductWithCategory();
         Product TGetProductById(int id);
-       
+
+        decimal TProductPriceAVG();
+        decimal TProductPriceMax();
+        decimal TProductPriceMin();
+        decimal THamburgerPriceAVG();
+
+
     }
 }

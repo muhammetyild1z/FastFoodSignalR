@@ -1,0 +1,38 @@
+﻿@model ResultContactDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/Layout.cshtml";
+}
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Iletisim Bitis Detay</th>
+            <th scope="col">Iletisim Numarasi</th>
+            <th scope="col">Iletisim Adresi</th>
+            <th scope="col">Iletisim Mail</th>
+           
+           
+            <th scope="col">Guncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td> <input type="hidden" value="@Model.ContactID"/></td>
+            <td>@Model.ContactFooterDescription</td>
+            <td>@Model.ContactPhone</td>
+            <td>@Model.ContactLocation</td>
+            <td>@Model.ContactMail</td>
+          
+         
+            <td><a href="/Contact/UpdateContact/@Model.ContactID" class="btn btn-outline-success">Guncelle</a></td>
+        </tr>
+
+        @ViewBag.ErrorMessage
+    </tbody>
+</table>
+
+
+

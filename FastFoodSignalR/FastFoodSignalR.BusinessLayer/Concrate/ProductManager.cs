@@ -52,7 +52,25 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
           return (_productDal.GetListAll().Where(x=>x.ProductID==id).FirstOrDefault());
         }
 
-       
+        public decimal THamburgerPriceAVG()
+        {
+            return _productDal.HamburgerPriceAVG();
+        }
+
+        public decimal TProductPriceAVG()
+        {
+            return _productDal.ProductPriceAVG();  
+        }
+
+        public decimal TProductPriceMax()
+        {
+            return _productDal.ProductPriceMax();
+        }
+
+        public decimal TProductPriceMin()
+        {
+            return _productDal.ProductPriceMin();
+        }
 
         public void Update(Product entity, Product unchanged)
         {

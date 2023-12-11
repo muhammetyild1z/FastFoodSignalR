@@ -24,7 +24,7 @@ namespace SignalRAPI.Controllers
             return  Ok(value);
         }
 
-        [HttpGet("GetByIdBooking")]
+        [HttpGet("GetByIdBooking/{id}")]
         public IActionResult GetByIdBooking(int id)
         {
             var value = _bookingservice.TGetById(id);
@@ -38,7 +38,7 @@ namespace SignalRAPI.Controllers
             return Ok("Rezervasyon Eklendi");
         }
 
-        [HttpPut("UpdateBooking")]
+        [HttpPut("UpdateBooking/{id}")]
         public IActionResult UpdateBooking(int id, UpdateBookingDto updateBookingDto)
         {
             var value = _bookingservice.TGetById(id);
@@ -46,7 +46,7 @@ namespace SignalRAPI.Controllers
             return Ok("Rezervasyon Guncellendi");
         }
 
-        [HttpDelete("DeleteBooking")]
+        [HttpDelete("DeleteBooking/{id}")]
         public IActionResult DeleteBooking(int id)
         {
             _bookingservice.TDelete(_bookingservice.TGetById(id));  

@@ -27,6 +27,27 @@ namespace SignalRAPI.Controllers
             return Ok(values);
         }
 
+        [HttpGet("CategoryCount")]
+        public IActionResult CategoryCount()
+        {
+            var values = _categoryService.TCategoryCount();
+            return Ok(values);
+        }
+
+        [HttpGet("AktiveCategoryCount")]
+        public IActionResult AktiveCategoryCount()
+        {
+            var values = _categoryService.TAktiveCategoryCount();
+            return Ok(values);
+        }
+
+        [HttpGet("PassiveCategoryCount")]
+        public IActionResult PassiveCategoryCount()
+        {
+            var values = _categoryService.TPassiveCategoryCount();
+            return Ok(values);
+        }
+
         [HttpGet("GetByIdCategory/{id}")]
         public IActionResult GetByIdCategory(int id)
         {

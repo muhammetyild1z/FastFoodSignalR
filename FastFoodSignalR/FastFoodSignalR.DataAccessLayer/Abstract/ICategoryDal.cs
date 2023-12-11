@@ -9,5 +9,8 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
 {
     public interface ICategoryDal : IGenericDal<Category>
     {
+        int CategoryCount();
+        int PassiveCategoryCount();
+        int AktiveCategoryCount();
     }
 }

@@ -19,6 +19,16 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             _category.Add(entity);
         }
 
+        public int TAktiveCategoryCount()
+        {
+            return _category.AktiveCategoryCount();
+        }
+
+        public int TCategoryCount()
+        {
+            return _category.CategoryCount();
+        }
+
         public void TDelete(Category entity)
         {
             _category.Delete(entity);   
@@ -32,7 +42,12 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
         public List<Category> TGetListAll()
         {
             return _category.GetListAll();
-        }     
+        }
+
+        public int TPassiveCategoryCount()
+        {
+           return _category.PassiveCategoryCount();
+        }
 
         public void Update(Category entity, Category unchanged)
         {

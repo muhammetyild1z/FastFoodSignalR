@@ -12,8 +12,25 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 {
     public class efCategoryDal : GenericRepository<Category>, ICategoryDal
     {
-        public efCategoryDal(FastFoodContext context) : base(context)
+        private readonly FastFoodContext _fastFoodContext;
+        public efCategoryDal(FastFoodContext context, FastFoodContext fastFoodContext) : base(context)
         {
+            _fastFoodContext = fastFoodContext;
+        }
+
+        public int AktiveCategoryCount()
+        {       
+            return _fastFoodContext.Categories.Where(x => x.CategoryStatus == true).Count();
+        }
+
+        public int CategoryCount()
+        {
+            return _fastFoodContext.Categories.Count();
+        }
+
+        public int PassiveCategoryCount()
+        {
+            return _fastFoodContext.Categories.Where(x => x.CategoryStatus == false).Count();
         }
     }
 }

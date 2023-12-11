@@ -20,10 +20,39 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
             
         }
+        
+        [HttpGet("THamburgerPriceAVG")]
+        public IActionResult THamburgerPriceAVG()
+        {
+            var products = _productservice.THamburgerPriceAVG();
+            return Ok(products);
+        }
+
         [HttpGet("ListProduct")]
         public IActionResult ListProduct()
         {
             var products = _productservice.TGetListAll();
+            return Ok(products);
+        }
+
+        [HttpGet("ProductPriceAVG")]
+        public IActionResult ProductPriceAVG()
+        {
+            var products = _productservice.TProductPriceAVG();
+            return Ok(products);
+        }
+
+        [HttpGet("ProductPriceMax")]
+        public IActionResult ProductPriceMax()
+        {
+            var products = _productservice.TProductPriceMax();
+            return Ok(products);
+        }
+
+        [HttpGet("ProductPriceMin")]
+        public IActionResult ProductPriceMin()
+        {
+            var products = _productservice.TProductPriceMin();
             return Ok(products);
         }
 
