@@ -25,6 +25,8 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
         public DbSet<Product> Products { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,12 +39,20 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
             modelBuilder.Entity<Feature>().HasKey(x => x.FeauteID);
             modelBuilder.Entity<SocialMedia>().HasKey(x => x.SocialMediaID);
             modelBuilder.Entity<Testimonial>().HasKey(x => x.TestimonialID);
+            modelBuilder.Entity<Order>().HasKey(x => x.OrderID);
+            modelBuilder.Entity<OrderDetail>().HasKey(x=> new {x.OrderDetailID, x.ProductID, x.OrderID});
 
-
+           
            
             modelBuilder.Entity<Product>().HasOne(x => x.Category)
                .WithMany(x => x.Products).HasForeignKey(x => x.CategoryID);
-          
+
+            modelBuilder.Entity<OrderDetail>().HasOne(x => x.product)
+                .WithMany(x => x.orderDetails).HasForeignKey(x => x.ProductID);
+
+            modelBuilder.Entity<OrderDetail>().HasOne(x => x.order)
+              .WithMany(x => x.orderDetails).HasForeignKey(x => x.OrderID);
+
 
 
 
