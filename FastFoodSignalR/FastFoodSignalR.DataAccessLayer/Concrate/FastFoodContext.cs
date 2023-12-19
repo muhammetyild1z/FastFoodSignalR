@@ -27,6 +27,7 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<MoneyCase> MoneyCases { get; set; }
       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -40,6 +41,7 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
             modelBuilder.Entity<SocialMedia>().HasKey(x => x.SocialMediaID);
             modelBuilder.Entity<Testimonial>().HasKey(x => x.TestimonialID);
             modelBuilder.Entity<Order>().HasKey(x => x.OrderID);
+            modelBuilder.Entity<MoneyCase>().HasKey(x => x.MoneyCaseID);
             modelBuilder.Entity<OrderDetail>().HasKey(x=> new {x.OrderDetailID, x.ProductID, x.OrderID});
 
            

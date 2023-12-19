@@ -13,7 +13,6 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
         void Delete(T entity);
         void Update(T entity, T unchanged);
         T GetById(int Id);
-        
         List<T> GetListAll();
        
     }

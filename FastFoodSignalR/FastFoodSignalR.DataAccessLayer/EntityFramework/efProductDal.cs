@@ -29,7 +29,7 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 
         public decimal HamburgerPriceAVG()
         {
-            var value = _fastFoodContext.Products.Where(x => x.Category.CategoryName == "Hamburger").Average(x => x.ProductPrice);
+            var value = _fastFoodContext.Products.Where(x => x.Category.CategoryName == "Hamburgerler").Average(x => x.ProductPrice);
             if (value != null)
             {
                 return value;

@@ -176,6 +176,22 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.ToTable("Features");
                 });
 
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.MoneyCase", b =>
+                {
+                    b.Property<int>("MoneyCaseID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MoneyCaseID"), 1L, 1);
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("MoneyCaseID");
+
+                    b.ToTable("MoneyCases");
+                });
+
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Order", b =>
                 {
                     b.Property<int>("OrderID")
@@ -190,6 +206,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<string>("OrderDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("OrderStatus")
+                        .HasColumnType("bit");
 
                     b.Property<decimal>("OrderTotalPrice")
                         .HasColumnType("decimal(18,2)");

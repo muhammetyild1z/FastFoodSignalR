@@ -13,6 +13,7 @@ namespace FastFoodSignalR.Entity.Entities
         public string OrderDescription { get; set; }
         public DateTime OrderDateTime{ get; set; }
         public decimal OrderTotalPrice{ get; set; }
+        public bool OrderStatus{ get; set; }
         public List<OrderDetail> orderDetails { get; set; }
     }
 }

@@ -11,7 +11,6 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
     {
         List<Product> GetIncludeProductWithCategory();
         int ProductCount();
-
         decimal ProductPriceAVG();
         decimal ProductPriceMax();
         decimal ProductPriceMin();
