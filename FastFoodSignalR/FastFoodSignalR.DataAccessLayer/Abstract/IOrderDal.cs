@@ -14,6 +14,6 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
         decimal LastOrderPrice();
         decimal CaseSumPrice ();
         int TableOrderCount();
-        decimal TodayEarning();
+        
     }
 }

@@ -53,10 +53,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _order.TableOrderCount();
         }
 
-        public decimal TTodayEarning()
-        {
-            return _order.TodayEarning();
-        }
+        
 
         public int TTotalAktiveOrder()
         {

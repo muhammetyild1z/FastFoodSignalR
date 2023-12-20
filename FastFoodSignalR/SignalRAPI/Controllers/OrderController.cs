@@ -51,12 +51,7 @@ namespace SignalRAPI.Controllers
             return Ok(values);
         }
 
-        [HttpGet("TodayEarning")]
-        public IActionResult TodayEarning()
-        {
-            var values = _orderService.TTodayEarning();
-            return Ok(values);
-        }
+        
 
     }
 }

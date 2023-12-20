@@ -35,12 +35,7 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
             return _fastFoodContext.Orders.Count();
         }
 
-        public decimal TodayEarning()
-        {
-            return _fastFoodContext.Orders.Where(x=>x.OrderStatus==true)
-                .Where(x => x.OrderDateTime.DayOfYear == DateTime.Today.DayOfYear)
-                .Sum(x=>x.OrderTotalPrice);
-        }
+       
 
         public int TotalAktiveOrder()
         {
