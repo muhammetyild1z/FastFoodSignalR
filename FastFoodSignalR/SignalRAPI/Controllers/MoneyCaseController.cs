@@ -15,10 +15,10 @@ namespace SignalRAPI.Controllers
             _moneyCaseService = moneyCaseService;
         }
 
-        [HttpGet("TodayEarning")]
-        public IActionResult TodayEarning()
+        [HttpGet("CaseSumPrice")]
+        public IActionResult CaseSumPrice()
         {
-            var values = _moneyCaseService.TTodayEarning();
+            var values = _moneyCaseService.TCaseSumPrice();
             return Ok(values);
         }
     }

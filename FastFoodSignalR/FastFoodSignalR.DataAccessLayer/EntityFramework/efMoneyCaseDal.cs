@@ -18,7 +18,7 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
             _fastFoodContext = fastFoodContext;
         }
 
-        public decimal TodayEarning()
+        public decimal CaseSumPrice()
         {
             return _fastFoodContext.MoneyCases.Sum(x => x.TotalAmount);
         }

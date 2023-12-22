@@ -40,9 +40,9 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _moneyCase.GetListAll();
         }
 
-        public decimal TTodayEarning()
+        public decimal TCaseSumPrice()
         {
-            return _moneyCase.TodayEarning();
+            return _moneyCase.CaseSumPrice();
         }
 
         public void Update(MoneyCase entity, MoneyCase unchanged)

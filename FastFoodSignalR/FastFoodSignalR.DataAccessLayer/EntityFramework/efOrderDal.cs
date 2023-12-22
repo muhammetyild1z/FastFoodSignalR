@@ -18,9 +18,9 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
             _fastFoodContext = fastFoodContext;
         }
 
-        public decimal CaseSumPrice()
+        public decimal TodayEarning()
         {
-           return _fastFoodContext.Orders.Sum(x => x.OrderTotalPrice);
+            return _fastFoodContext.Orders.Where(x => x.OrderDateTime.DayOfYear == DateTime.Now.DayOfYear).Sum(x => x.OrderTotalPrice);
         }
 
         public decimal LastOrderPrice()

@@ -23,9 +23,9 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             _order.Add(entity);
         }
 
-        public decimal TCaseSumPrice()
+        public decimal TTodayEarning()
         {
-           return _order.CaseSumPrice();
+           return _order.TodayEarning();
         }
 
         public void TDelete(Order entity)

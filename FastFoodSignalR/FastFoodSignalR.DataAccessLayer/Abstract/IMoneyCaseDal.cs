@@ -9,6 +9,7 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
 {
     public interface IMoneyCaseDal: IGenericDal<MoneyCase>
     {
-        decimal TodayEarning();
+        
+        decimal CaseSumPrice();
     }
 }

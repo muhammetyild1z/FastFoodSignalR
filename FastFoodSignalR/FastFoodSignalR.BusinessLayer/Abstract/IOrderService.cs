@@ -12,7 +12,7 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
         int TTotalOrderCount();
         int TTotalAktiveOrder();
         decimal TLastOrderPrice();
-        decimal TCaseSumPrice();
+        decimal TTodayEarning();
         int TTableOrderCount();
         
        

@@ -37,10 +37,10 @@ namespace SignalRAPI.Controllers
             return Ok(values);
         }
 
-        [HttpGet("CaseSumPrice")]
-        public IActionResult CaseSumPrice()
+        [HttpGet("TodayEarning")]
+        public IActionResult TodayEarning()
         {
-            var values = _orderService.TCaseSumPrice();
+            var values = _orderService.TTodayEarning();
             return Ok(values);
         }
 

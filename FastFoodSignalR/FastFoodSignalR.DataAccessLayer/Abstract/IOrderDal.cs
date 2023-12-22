@@ -12,7 +12,7 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
         int TotalOrderCount();
         int TotalAktiveOrder();
         decimal LastOrderPrice();
-        decimal CaseSumPrice ();
+        decimal TodayEarning();
         int TableOrderCount();
         
     }

@@ -9,6 +9,7 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
 {
     public interface IMoneyCaseService:IGenericService<MoneyCase>
     {
-        decimal TTodayEarning();
+        
+        decimal TCaseSumPrice();
     }
 }
