@@ -4,6 +4,7 @@ using FastFoodSignalR.DataAccessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Concrate;
 using FastFoodSignalR.DataAccessLayer.EntityFramework;
 using FastFoodSignalR.Entity.Entities;
+using SignalRAPI.Hubs;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -54,13 +55,16 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("https://localhost:44385/") // UI'nin URL'sini buraya ekleyin
+            builder.SetIsOriginAllowed((host) => true)
+            //WithOrigins("https://localhost:44385/") 
+                   .AllowCredentials()
                    .AllowAnyMethod()
                    .AllowAnyHeader();
         });
 });
 
 builder.Services.AddControllers();
+builder.Services.AddSignalR();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -80,5 +84,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<SignalRHub>("/signalrhub");
 
 app.Run();

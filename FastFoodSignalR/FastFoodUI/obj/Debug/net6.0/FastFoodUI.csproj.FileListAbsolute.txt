@@ -250,3 +250,4 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFood
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodUI\bin\Debug\net6.0\FastFoodSignalR.DataAccessLayer.dll
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodUI\bin\Debug\net6.0\FastFoodSignalR.BusinessLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodUI\bin\Debug\net6.0\FastFoodSignalR.DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodUI\bin\Debug\net6.0\libman.json

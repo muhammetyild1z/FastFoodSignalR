@@ -50,14 +50,19 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
             return _fastFoodContext.Products.Average(x => x.ProductPrice);
         }
 
-        public decimal ProductPriceMax()
+        public (decimal, string) ProductPriceMax()
         {
-            return _fastFoodContext.Products.Max(x => x.ProductPrice);
+           var maxPrice= _fastFoodContext.Products.Max(x => x.ProductPrice);
+            var maxPriceName = _fastFoodContext.Products.First(x => x.ProductPrice == maxPrice).ProductName;
+            return (maxPrice, maxPriceName);
+               
         }
 
-        public decimal ProductPriceMin()
+        public (decimal, string) ProductPriceMin()
         {
-            return _fastFoodContext.Products.Min(x => x.ProductPrice);
+            var minPrice = _fastFoodContext.Products.Min(x => x.ProductPrice);
+            var minPriceName = _fastFoodContext.Products.First(x => x.ProductPrice == minPrice).ProductName;
+            return (minPrice, minPriceName);
         }
     }
 }

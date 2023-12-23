@@ -62,12 +62,12 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _productDal.ProductPriceAVG();  
         }
 
-        public decimal TProductPriceMax()
+        public (decimal, string) TProductPriceMax()
         {
             return _productDal.ProductPriceMax();
         }
 
-        public decimal TProductPriceMin()
+        public (decimal, string) TProductPriceMin()
         {
             return _productDal.ProductPriceMin();
         }
