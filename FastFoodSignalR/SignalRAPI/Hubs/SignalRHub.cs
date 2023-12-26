@@ -39,8 +39,8 @@ namespace SignalRAPI.Hubs
             var AVGHamburgerPrice = _productService.THamburgerPriceAVG();
             await Clients.All.SendAsync("ReceiveProductCount", productCount);
             await Clients.All.SendAsync("ReceiveAVGproductPrice", AVGproductPrice);
-            await Clients.All.SendAsync("ReceiveMaxproductPrice", MaxproductPrice.Item2);
-            await Clients.All.SendAsync("ReceiveMinproductPrice", MinproductPrice.Item2);
+            await Clients.All.SendAsync("ReceiveMaxproductPrice", MaxproductPrice.Item1, MaxproductPrice.Item2);
+            await Clients.All.SendAsync("ReceiveMinproductPrice", MinproductPrice.Item1, MinproductPrice.Item2);
             await Clients.All.SendAsync("ReceiveAVGHamburgerPrice", AVGHamburgerPrice);
         }
 
