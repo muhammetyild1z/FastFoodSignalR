@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6er4gfQJBmhCh8x8okRR9kAnijCzrdtn5BIjl3zOhdL7L8mhpKurkUbZB7cFcRx5nKnryEM8YEoIX6+cs40GnQ==",
+  "dgSpecHash": "2jwVp8v5QQ5J/wDYo7PKVYB5rQEXKkOCJ76+SoJfzZqeT6VGRcrKKsz2sdYnhgzQOVJLO0h7pFm7xGC0uBASqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\SignalRAPI\\SignalRAPI.csproj",
+  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\SignalRAPI\\SignalRAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

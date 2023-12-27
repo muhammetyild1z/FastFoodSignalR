@@ -42,18 +42,18 @@ namespace SignalRAPI.Controllers
         //    return Ok("Silme Basarili");
         //}
 
-        [HttpGet("GetByIdContact/{id}")]
-        public IActionResult GetByIdContact(int id)
+        [HttpGet("GetByIdContact")]
+        public IActionResult GetByIdContact()
         {
-            var value = _contactService.TGetById(id);
+            var value = _contactService.TGetListAll().FirstOrDefault();
             return Ok(value);
         }
 
       
         [HttpPut("UpdateContact/{id}")]
-        public IActionResult UpdateContact(int id, UpdateContactDto updateContactDto)
+        public IActionResult UpdateContact( UpdateContactDto updateContactDto)
         {
-            var value = _contactService.TGetById(id);
+            var value = _contactService.TGetById(updateContactDto.ContactID);
             _contactService.Update(_mapper.Map<Contact>(updateContactDto), value);
             return Ok();
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj",
       "projectName": "FastFoodSignalR.Entity",
-      "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj",
+      "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\obj\\",
+      "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",

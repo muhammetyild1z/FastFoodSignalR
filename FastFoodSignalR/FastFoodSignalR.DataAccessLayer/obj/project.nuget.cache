@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2u0KDcyezoEh1BM371p8PY3x0x0XJMuh7YFZlRH1aOHAjGus6tyiFi16cG8c+tp8ByNLfFikC3yqtHwnpLTF/g==",
+  "dgSpecHash": "ZBQSEjtcS3nZOTriHXj6RmPW+PSfOPBSLPsPqFwpOqHP5FBaspXICsRvkvEEavd9U+n903l2ddny30iGZZefZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DataAccessLayer\\FastFoodSignalR.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DataAccessLayer\\FastFoodSignalR.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

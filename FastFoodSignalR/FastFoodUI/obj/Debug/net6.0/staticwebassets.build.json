@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YP58qf6n/kGv37y1o0kgT2FZkzKgSaisj4kgBuGxHgs=",
+  "Hash": "wgTvkydgh716SQrgvHpwEVy4McqW8q7poJdRQPsAv/c=",
   "Source": "FastFoodUI",
   "BasePath": "_content/FastFoodUI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FastFoodUI\\wwwroot",
       "Source": "FastFoodUI",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\css\\site.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\favicon.ico",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\js\\site.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.min.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\.DS_Store",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\.DS_Store",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/.DS_Store",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\bootstrap.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\demo.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\demo.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/css/demo.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/css/ready.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css.map",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css.map",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/css/ready.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.css.map"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.min.css",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.min.css",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/css/ready.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\css\\ready.min.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.eot",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.eot",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/fonts/line-awesome.eot",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.eot"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.svg",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.svg",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/fonts/line-awesome.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.svg"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.ttf",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.ttf",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/fonts/line-awesome.ttf",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.ttf"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/fonts/line-awesome.woff",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff2",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff2",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/fonts/line-awesome.woff2",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\fonts\\line-awesome.woff2"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu.png",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu.png",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/img/menu.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu.png"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu2.png",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu2.png",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/img/menu2.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\menu2.png"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile.jpg",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile.jpg",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/img/profile.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile.jpg"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile2.jpg",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile2.jpg",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/img/profile2.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\img\\profile2.jpg"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\bootstrap.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\bootstrap.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/core/bootstrap.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\jquery.3.2.1.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\jquery.3.2.1.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/core/jquery.3.2.1.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\jquery.3.2.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\popper.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\popper.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/core/popper.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\demo.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\demo.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/demo.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chart-circle\\circles.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chart-circle\\circles.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/chart-circle/circles.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chart-circle\\circles.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\chartist.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\chartist.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/chartist/chartist.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\chartist.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/jquery.mapael.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/france_departments.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/france_departments.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/README.txt",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/usa_states.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/usa_states.min.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries.min.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries_mercator.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries_mercator.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries_miller.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-mapael/maps/world_countries_miller.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/ready.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.min.js",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.min.js",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/js/ready.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\js\\ready.min.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready.scss",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_background.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_background.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_background.scss",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_background.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_components.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_components.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_components.scss",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_components.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_layouts.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_layouts.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_layouts.scss",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_layouts.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_line-awesome.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_line-awesome.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_line-awesome.scss",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_line-awesome.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_outlinefocus.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_outlinefocus.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_outlinefocus.scss",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_outlinefocus.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_plugins.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_plugins.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_plugins.scss",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_plugins.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_responsive.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_responsive.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_responsive.scss",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_responsive.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_typography.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_typography.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_typography.scss",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_typography.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_variables.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_variables.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/_variables.scss",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_alerts.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_alerts.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_alerts.scss",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_alerts.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_badges.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_badges.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_badges.scss",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_badges.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_buttons.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_buttons.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_buttons.scss",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_cards.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_cards.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_cards.scss",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_cards.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_charts.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_charts.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_charts.scss",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_charts.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_dropdowns.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_dropdowns.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_dropdowns.scss",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_dropdowns.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_inputs.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_inputs.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_inputs.scss",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_inputs.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_maps.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_maps.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_maps.scss",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_maps.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_modals.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_modals.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_modals.scss",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_modals.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navbars.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navbars.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_navbars.scss",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navbars.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navpills.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navpills.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_navpills.scss",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navpills.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navsearch.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navsearch.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_navsearch.scss",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_navsearch.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_paginations.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_paginations.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_paginations.scss",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_paginations.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_sliders.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_sliders.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_sliders.scss",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_sliders.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_tables.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_tables.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/components/_tables.scss",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\components\\_tables.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_chartist.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_chartist.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/plugins/_chartist.scss",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_chartist.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/plugins/_jqueryscrollbar.scss",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryui.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryui.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/plugins/_jqueryui.scss",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_jqueryui.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_toggle.scss",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_toggle.scss",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/assets/sass/ready/plugins/_toggle.scss",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\assets\\sass\\ready\\plugins\\_toggle.scss"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\components.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\components.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/components.html",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\components.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\forms.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\forms.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/forms.html",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\forms.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\icons.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\icons.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/icons.html",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\icons.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\index.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\index.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/index.html",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\index.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\LICENSE",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\LICENSE",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/LICENSE",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\notifications.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\notifications.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/notifications.html",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\notifications.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\README.md",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\README.md",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/README.md",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\README.md"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\tables.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\tables.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/tables.html",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Ready-Bootstrap-Dashboard-master\\tables.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\typography.html",
+      "Identity": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\Ready-Bootstrap-Dashboard-master\\typography.html",
       "SourceId": "FastFoodUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\",
       "BasePath": "_content/FastFoodUI",
       "RelativePath": "Ready-Bootstrap-Dashboard-master/typography.html",
       "AssetKind": "All",

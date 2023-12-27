@@ -17,7 +17,7 @@ namespace FastFoodUI.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact/{1}");
+            var responseMessage = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -37,7 +37,7 @@ namespace FastFoodUI.Controllers
         {
 
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact/{1}");
+            var responseMessage = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -57,7 +57,7 @@ namespace FastFoodUI.Controllers
         {
 
             var client = _httpClientFactory.CreateClient();
-            var unchange = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact/{updateContactDto.ContactID}");
+            var unchange = await client.GetAsync($"https://localhost:7088/api/Contact/GetByIdContact");
             var jsonData = JsonConvert.SerializeObject(unchange);
             StringContent httpContext = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PutAsync($"https://localhost:7088/api/Contact/UpdateContacy/{updateContactDto.ContactID}", httpContext);

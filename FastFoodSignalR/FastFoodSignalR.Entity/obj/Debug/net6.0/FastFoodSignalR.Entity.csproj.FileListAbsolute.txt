@@ -10,3 +10,15 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFood
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\refint\FastFoodSignalR.Entity.dll
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\ref\FastFoodSignalR.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\bin\Debug\net6.0\FastFoodSignalR.Entity.deps.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\bin\Debug\net6.0\FastFoodSignalR.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\bin\Debug\net6.0\FastFoodSignalR.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\refint\FastFoodSignalR.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\FastFoodSignalR.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\FastFoodSignalR.Entity\obj\Debug\net6.0\ref\FastFoodSignalR.Entity.dll
