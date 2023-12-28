@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ijPP2wFqFh5+B+8Z1CnqYhNVJYCCeQWqse/R2C5kf9k47qwSsUawNLkqQmL3XxrC8Tsq7Yrth6+V6B+9wjueJQ==",
+  "dgSpecHash": "FcyKYqAOcfyx0WN0v8+ENiayByJaMLm/7Mc+YnZloogaKYPDLPICNYlOaMYcRxnCXsa0DMhjWVjnJpVMzfaiXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\FastFoodUI.csproj",
+  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\FastFoodUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

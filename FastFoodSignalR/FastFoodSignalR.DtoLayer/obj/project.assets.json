@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\FastFoodSignalR.DtoLayer.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\FastFoodSignalR.DtoLayer.csproj",
       "projectName": "FastFoodSignalR.DtoLayer",
-      "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\FastFoodSignalR.DtoLayer.csproj",
+      "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\FastFoodSignalR.DtoLayer.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\obj\\",
+      "outputPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.DtoLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj": {
-              "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj"
+            "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj": {
+              "projectPath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.Entity\\FastFoodSignalR.Entity.csproj"
             }
           }
         }

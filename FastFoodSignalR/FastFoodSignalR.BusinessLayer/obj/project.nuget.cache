@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ri9YdxgnjKY24vFrEvvhdltJrm3dDhswFeCDmWfLPXhC0lyYUXuBYDpMVeKHnzQ0L2T4grNoEd2r3grCem814g==",
+  "dgSpecHash": "bGElkPEqWtYqmijXnoJBOF/bucecSZ9YusA9S5M3fGpm8xFcZcsWks8KKu9VKyIlZ2MlEB1ZyFDzsFcJgEHIYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\JobAdvertisement_\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.BusinessLayer\\FastFoodSignalR.BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodSignalR.BusinessLayer\\FastFoodSignalR.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
