@@ -11,8 +11,6 @@
     <script type="text/javascript">
         //SIGNALR CON
         $(document).ready(() => {
-
-
             var connection = new signalR.HubConnectionBuilder().withUrl
                 ("https://localhost:7088/SignalRHub").build();
 
@@ -22,13 +20,10 @@
                 $("#connectionStatus").text("Baglanti Durumu "+ connection.state);
                 //INVOKE METHOD
                 setInterval(() => {
-
                     connection.invoke("SendCategory");
                     connection.invoke("SendProduct");
                     connection.invoke("SendOrder");
-                    connection.invoke("SendCase");
-                    
-
+                    connection.invoke("SendCase");             
                 }, 1000)
 
             }).catch((err) => { console.log(err) });
@@ -102,14 +97,108 @@
                 $("#todayEarnig").text(todayEarnig+" TL");
             })
             // KASA ISLEMLERI
-            connection.on("ReceiveTotalCase", (totalCase) => {
-                $("#totalCase").text(totalCase+" TL");
+            connection.on("ReceiveTodayTotalCase", (totalCase) => {
+                $("#totalCase").text(totalCase + " ₺");
             })
 
         });
     </script>
 
   }
+
+<div class="row row-card-no-pd">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <p class="fw-bold mt-1">Anlik Kasa Degeri</p>
+                <h4><b id="totalCase">₺ </b></h4>
+                <a href="#" class="btn btn-primary btn-full text-left mt-3 mb-3"><i class="la la-plus"></i> Yeni Siparis</a>
+            </div>
+            <div class="card-footer">
+                <ul class="nav">
+                    <li class="nav-item"><a class="btn btn-default btn-link" href="#"><i class="la la-history"></i> Siparisler</a></li>
+                    <li class="nav-item ml-auto"><a class="btn btn-default btn-link" href="#"><i class="la la-refresh"></i> Sayfay Yenile</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="progress-card">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Urun Ortalama Stok Miktari</span>
+                        <span class="text-muted fw-bold" id="totalCase"> </span>
+                    </div>
+                    <div class="progress mb-2" style="height: 7px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="78%"></div>
+                    </div>
+                </div>
+                <div class="progress-card">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Eklenecek </span>
+                        <span class="text-muted fw-bold"> 576</span>
+                    </div>
+                    <div class="progress mb-2" style="height: 7px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="65%"></div>
+                    </div>
+                </div>
+                <div class="progress-card">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Eklenecek</span>
+                        <span class="text-muted fw-bold"> 70%</span>
+                    </div>
+                    <div class="progress mb-2" style="height: 7px;">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="70%"></div>
+                    </div>
+                </div>
+                <div class="progress-card">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Eklenecek</span>
+                        <span class="text-muted fw-bold"> 60%</span>
+                    </div>
+                    <div class="progress mb-2" style="height: 7px;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top" title="60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card card-stats">
+            <div class="card-body">
+                <p class="fw-bold mt-1">Isletme Istatistikleri</p>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center icon-warning">
+                            <i class="la la-pie-chart text-warning"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Calisan Sayisi</p>
+                            <h4 class="card-title">150</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="la la-heart-o text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div class="numbers">
+                            <p class="card-category">Followers</p>
+                            <h4 class="card-title">+45K</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid">
 
@@ -201,26 +290,8 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-3">
-            <div class="card card-stats card-primary">
-                <div class="card-body ">
-                    <div class="row">
-                        <div class="col-5">
-                            <div class="icon-big text-center">
-                                <i class="la la-users"></i>
-                            </div>
-                        </div>
-                        <div class="col-7 d-flex align-items-center">
-                            <div class="numbers">
-                                <p class="card-category">Ortalama Urun Fiyati</p>
-                                <h4 class="card-title" id="aVGProductPrice"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
+      
+        <div class="col-md-4">
             <div class="card card-stats card-info">
                 <div class="card-body ">
                     <div class="row">
@@ -240,7 +311,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card card-stats carousel-dark">
                 <div class="card-body">
                     <div class="row">
@@ -260,7 +331,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card card-stats card-link">
                 <div class="card-body ">
                     <div class="row">
@@ -287,25 +358,7 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-3">
-            <div class="card card-stats card-sub">
-                <div class="card-body ">
-                    <div class="row">
-                        <div class="col-5">
-                            <div class="icon-big text-center">
-                                <i class="la la-users"></i>
-                            </div>
-                        </div>
-                        <div class="col-7 d-flex align-items-center">
-                            <div class="numbers">
-                                <p class="card-category">Toplam Siparis Sayisi</p>
-                                <h4 class="card-title" id="totalOrderCount"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="col-md-3">
             <div class="card card-stats card-success">
                 <div class="card-body ">
@@ -365,13 +418,6 @@
                 </div>
             </div>
         </div>
-
-    </div>
-</div>
-
-<div class="container-fluid">
-
-    <div class="row">
         <div class="col-md-3">
             <div class="card card-stats card-warning">
                 <div class="card-body ">
@@ -391,7 +437,51 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+
+    <div class="row">
+         <div class="col-md-3">
+            <div class="card card-stats card-primary">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="icon-big text-center">
+                                <i class="la la-users"></i>
+                            </div>
+                        </div>
+                        <div class="col-7 d-flex align-items-center">
+                            <div class="numbers">
+                                <p class="card-category">Ortalama Urun Fiyati</p>
+                                <h4 class="card-title" id="aVGProductPrice"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-md-3">
+            <div class="card card-stats card-sub">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="icon-big text-center">
+                                <i class="la la-users"></i>
+                            </div>
+                        </div>
+                        <div class="col-7 d-flex align-items-center">
+                            <div class="numbers">
+                                <p class="card-category">Toplam Siparis Sayisi</p>
+                                <h4 class="card-title" id="totalOrderCount"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      @*  <div class="col-md-3">
             <div class="card card-stats card-success">
                 <div class="card-body ">
                     <div class="row">
@@ -400,7 +490,7 @@
                                 <i class="la la-bar-chart"></i>
                             </div>
                         </div>
-                        <div class="col-7 d-flex align-items-center">
+                       <div class="col-7 d-flex align-items-center">
                             <div class="numbers">
                                 <p class="card-category">Kasadaki Tutar</p>
                                 <h4 class="card-title" id="totalCase"></h4>
@@ -410,8 +500,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*@
     
 
     </div>
 </div>
+

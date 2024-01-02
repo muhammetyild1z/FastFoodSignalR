@@ -13,7 +13,7 @@ namespace FastFoodUI.Controllers
         public CategoryController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
-        }
+        } 
 
         public async Task<IActionResult> Index()
         {

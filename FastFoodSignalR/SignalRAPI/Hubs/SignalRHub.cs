@@ -63,9 +63,9 @@ namespace SignalRAPI.Hubs
         public async Task SendCase()
         {
             
-            var todayEarnig = _moneyCase.TCaseSumPrice();
-
-            await Clients.All.SendAsync("ReceiveTotalCase", todayEarnig);
+            var todayEarnig = _moneyCase.TCaseSumPrice();        
+            await Clients.All.SendAsync("ReceiveTodayTotalCase", todayEarnig);
+            await Clients.All.SendAsync("ReceiveTotalCase", todayEarnig.ToString("0.00")+ "₺");
         }
     }
 }
