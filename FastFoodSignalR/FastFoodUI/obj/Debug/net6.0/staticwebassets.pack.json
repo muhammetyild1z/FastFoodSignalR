@@ -321,6 +321,134 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\about.html",
+      "PackagePath": "staticwebassets\\feane\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\book.html",
+      "PackagePath": "staticwebassets\\feane\\book.html"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\feane\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\feane\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\feane\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\style.css",
+      "PackagePath": "staticwebassets\\feane\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\feane\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\css\\style.scss",
+      "PackagePath": "staticwebassets\\feane\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\feane\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f1.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f2.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f3.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f3.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f4.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f4.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f5.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f5.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f6.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f6.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f7.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f7.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f8.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f8.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\f9.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f9.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\feane\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\o1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\o2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\index.html",
+      "PackagePath": "staticwebassets\\feane\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\feane\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\js\\custom.js",
+      "PackagePath": "staticwebassets\\feane\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\feane\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\feane\\menu.html",
+      "PackagePath": "staticwebassets\\feane\\menu.html"
+    },
+    {
       "Id": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\FastFoodSignalR\\FastFoodSignalR\\FastFoodUI\\wwwroot\\js\\SignalR.js",
       "PackagePath": "staticwebassets\\js\\SignalR.js"
     },

@@ -16,5 +16,10 @@ namespace FastFoodSignalR.Entity.Entities
         public int CategoryID { get; set; }
         public Category Category { get; set; }
         public List<OrderDetail> orderDetails { get; set; }
+
+        public int? DiscountID { get; set; }
+        public Discount discount { get; set; }
+
+
     }
 }

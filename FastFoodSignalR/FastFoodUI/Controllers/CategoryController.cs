@@ -87,13 +87,13 @@ namespace FastFoodUI.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateCategory(int id,UpdateCategoryDto updateCategoryDto)
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto)
         {
             var client = _httpClientFactory.CreateClient();
             var unchange = await client.GetAsync($"https://localhost:7088/api/Category/GetByIdCategory/{updateCategoryDto.CategoryID}");
             var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
             StringContent httpContent= new StringContent(jsonData,Encoding.UTF8,"application/json");
-            var responseMessage = await client.PutAsync($"https://localhost:7088/api/Category/UpdateCategory/{id}", httpContent);
+            var responseMessage = await client.PutAsync($"https://localhost:7088/api/Category/UpdateCategory/{updateCategoryDto.CategoryID}", httpContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");

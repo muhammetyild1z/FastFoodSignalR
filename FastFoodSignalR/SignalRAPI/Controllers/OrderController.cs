@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using FastFoodSignalR.BusinessLayer.Abstract;
+using FastFoodSignalR.DtoLayer.OrderDto;
+using FastFoodSignalR.Entity.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
@@ -51,7 +53,26 @@ namespace SignalRAPI.Controllers
             return Ok(values);
         }
 
-        
+        [HttpGet("OrderList")]
+        public IActionResult OrderList()
+        {
+            var values = _orderService.TGetListAll();
+            return Ok(values);
+        }
 
+        [HttpPut("OrderUpdate")]
+        public IActionResult OrderUpdate(OrderUpdateDto orderUpdateDto)
+        {
+            var order = _orderService.TGetById(orderUpdateDto.OrderID);
+             _orderService.Update(_mapper.Map<Order>(orderUpdateDto), order);
+            return Ok();
+        }
+
+        [HttpGet("GetByIdBooking/{id}")]
+        public IActionResult GetByIdBooking(int id)
+        {
+            var value = _orderService.TGetById(id);
+            return Ok(value);
+        }
     }
 }

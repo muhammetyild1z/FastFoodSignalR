@@ -9,5 +9,6 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
 {
     public interface IDiscountDal : IGenericDal<Discount>
     {
+       
     }
 }

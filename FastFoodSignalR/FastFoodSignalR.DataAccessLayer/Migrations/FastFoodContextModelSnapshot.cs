@@ -138,17 +138,11 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<int>("DiscountAmount")
                         .HasColumnType("int");
 
-                    b.Property<string>("DiscountDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DiscountOverTime")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("DiscountImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DiscountTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("DiscountPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("DiscountID");
 
@@ -265,6 +259,10 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
+                    b.Property<int?>("DiscountID")
+                        .IsRequired()
+                        .HasColumnType("int");
+
                     b.Property<string>("ProductDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -287,7 +285,30 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
                     b.HasIndex("CategoryID");
 
+                    b.HasIndex("DiscountID");
+
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Slider", b =>
+                {
+                    b.Property<int>("SliderID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SliderID"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SliderID");
+
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.SocialMedia", b =>
@@ -374,7 +395,15 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("FastFoodSignalR.Entity.Entities.Discount", "discount")
+                        .WithMany()
+                        .HasForeignKey("DiscountID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("discount");
                 });
 
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Category", b =>

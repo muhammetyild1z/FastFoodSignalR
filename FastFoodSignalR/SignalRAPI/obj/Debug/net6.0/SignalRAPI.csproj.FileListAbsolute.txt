@@ -516,3 +516,8 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFo
 C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\SignalRAPI\obj\Debug\net6.0\SignalRAPI.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\SignalRAPI\obj\Debug\net6.0\SignalRAPI.genruntimeconfig.cache
 C:\Users\muham\OneDrive\Belgeler\GitHub\JobAdvertisement_\FastFoodSignalR\FastFoodSignalR\SignalRAPI\obj\Debug\net6.0\ref\SignalRAPI.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\Apache.NMS.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\Apache.NMS.ActiveMQ.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\Microsoft.PowerBI.Api.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\FastFoodSignalR\FastFoodSignalR\SignalRAPI\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll

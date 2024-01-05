@@ -52,12 +52,12 @@
 
             connection.on("ReceiveAVGproductPrice", (aVGProductPrice) => {
 
-                $("#aVGProductPrice").text(aVGProductPrice+" TL");
+                $("#aVGProductPrice").text(aVGProductPrice + " ₺");
             })
             // Gelen Liste Elemanlarini Tek Tek Alinmasi Gerekiyor
             connection.on("ReceiveMinproductPrice", (item1, item2) => {
 
-                $("#minproductName").text(item1 + " TL");
+                $("#minproductName").text(item1 + " ₺");
                 $("#minproductPrice").text(item2 );
                 
             })
@@ -65,14 +65,14 @@
             connection.on("ReceiveMaxproductPrice", (item1, item2) => {
 
 
-                $("#maxproductName").text(item1 + " TL");
+                $("#maxproductName").text(item1 + " ₺");
                 $("#maxproductPrice").text(item2 );
               
             })
 
             connection.on("ReceiveAVGHamburgerPrice", (Hamburger) => {
-             
-                $("#hamburgerAVG").text(Hamburger+" TL");
+
+                $("#hamburgerAVG").text(Hamburger + " ₺");
               
             })
 
@@ -82,7 +82,7 @@
             })
 
             connection.on("ReceiveLastOrderPrice", (lastOrder) => {
-                $("#lastOrderTotal").text(lastOrder+" TL");
+                $("#lastOrderTotal").text(lastOrder + " ₺");
             })
 
             connection.on("ReceiveAktiveOrderCount", (aktiveOrder) => {
@@ -94,7 +94,7 @@
             })
 
             connection.on("ReceiveTodayEarnig", (todayEarnig) => {
-                $("#todayEarnig").text(todayEarnig+" TL");
+                $("#todayEarnig").text(todayEarnig + " ₺");
             })
             // KASA ISLEMLERI
             connection.on("ReceiveTodayTotalCase", (totalCase) => {
@@ -116,7 +116,7 @@
             </div>
             <div class="card-footer">
                 <ul class="nav">
-                    <li class="nav-item"><a class="btn btn-default btn-link" href="#"><i class="la la-history"></i> Siparisler</a></li>
+                    <li class="nav-item"><a class="btn btn-default btn-link" href="/Order/OrderList"><i class="la la-history"></i> Siparisler</a></li>
                     <li class="nav-item ml-auto"><a class="btn btn-default btn-link" href="#"><i class="la la-refresh"></i> Sayfay Yenile</a></li>
                 </ul>
             </div>

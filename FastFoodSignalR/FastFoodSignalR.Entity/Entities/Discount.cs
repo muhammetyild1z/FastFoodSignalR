@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Principal;
 
 namespace FastFoodSignalR.Entity.Entities
 {
@@ -7,10 +8,11 @@ namespace FastFoodSignalR.Entity.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int DiscountID { get; set; }
-        public string DiscountTitle { get; set; }
+        public int DiscountID { get; set; }     
         public int DiscountAmount { get; set; }
-        public string DiscountDescription { get; set; }
-        public string DiscountImageUrl { get; set; }
+        public decimal DiscountPrice { get; set; }
+        //public string DiscountProductDesc { get; set; }           
+        public DateTime DiscountOverTime { get; set; }
+    
     }
 }

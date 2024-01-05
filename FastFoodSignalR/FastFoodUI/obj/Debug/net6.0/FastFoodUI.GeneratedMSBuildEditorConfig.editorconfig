@@ -48,8 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Layout/Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Order/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Order/OrderUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Product/CreateProduct.cshtml]
@@ -64,8 +76,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/ProgressBars/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3Jlc3NCYXJzXEluZGV4LmNzaHRtbA==
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeAboutPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVBYm91dFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeCustomersCommentPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVDdXN0b21lcnNDb21tZW50UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeDiscountPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVEaXNjb3VudFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeOurMenuPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVPdXJNZW51UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeSliderPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVTbGlkZXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]
@@ -84,8 +112,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFNpZGViYXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_UIFooterPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJRm9vdGVyUGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_UIHeaderPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJSGVhZGVyUGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_UILayoutHeadPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0SGVhZFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_UIScriptPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJU2NyaXB0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Statistics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/UILayout/Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlMYXlvdXRcTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/_ViewImports.cshtml]

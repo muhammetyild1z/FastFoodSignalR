@@ -19,6 +19,17 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
         {
             _fastFoodContext = fastFoodContext;
         }
+        public List<Product> GetListDiscountIncludeProduct()
+        {
+            FastFoodContext c = new FastFoodContext();
+            return c.Products.Include(x => x.discount).Where(x => x.DiscountID != null).AsNoTracking().ToList();
+
+        }
+        public List<Product> DiscountWithProductInclude()
+        {
+           return _fastFoodContext.Products.Include(x=>x.discount).ToList();
+       
+        }
 
         public List<Product> GetIncludeProductWithCategory()
         {
@@ -40,6 +51,7 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
             }
         }
 
+
         public int ProductCount()
         {
             return _fastFoodContext.Products.Count();
@@ -52,10 +64,10 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 
         public (decimal, string) ProductPriceMax()
         {
-           var maxPrice= _fastFoodContext.Products.Max(x => x.ProductPrice);
+            var maxPrice = _fastFoodContext.Products.Max(x => x.ProductPrice);
             var maxPriceName = _fastFoodContext.Products.First(x => x.ProductPrice == maxPrice).ProductName;
             return (maxPrice, maxPriceName);
-               
+
         }
 
         public (decimal, string) ProductPriceMin()

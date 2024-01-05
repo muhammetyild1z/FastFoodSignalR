@@ -109,7 +109,7 @@ namespace FastFoodUI.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateProductDto)
+        public async Task<IActionResult> UpdateProduct( UpdateProductDto updateProductDto)
         {
             var clientCat = _httpClientFactory.CreateClient();
             var responseMessageCat = await clientCat.GetAsync("https://localhost:7088/api/Category/ListCategory");
@@ -123,7 +123,7 @@ namespace FastFoodUI.Controllers
                 client.BaseAddress = new Uri("https://localhost:7088/api/Product/");
                 var jsonData = JsonConvert.SerializeObject(updateProductDto);
                 StringContent httpContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var responseMessage = await client.PutAsync($"UpdateProduct/{id}", httpContent);
+                var responseMessage = await client.PutAsync($"UpdateProduct/{updateProductDto.ProductID}", httpContent);
                 if (responseMessage.IsSuccessStatusCode)
                 {
                     return RedirectToAction("ListProduct");

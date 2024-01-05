@@ -13,11 +13,15 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
     public class DiscountManager : IDiscountService
     {
         IDiscountDal _discount;
+        IProductDal _prod;
 
-        public DiscountManager(IDiscountDal discount)
+        public DiscountManager(IDiscountDal discount, IProductDal prod)
         {
             _discount = discount;
+            _prod = prod;
         }
+
+
 
         public void TAdd(Discount entity)
         {
@@ -29,6 +33,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             _discount.Delete(entity);
         }
 
+       
         public Discount TGetById(int Id)
         {
             return _discount.GetById(Id);
@@ -39,12 +44,13 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _discount.GetListAll();
         }
 
-       
-      
+     
 
         public void Update(Discount entity , Discount unchanged)
         {
             _discount.Update(entity, unchanged);    
         }
+
+       
     }
 }

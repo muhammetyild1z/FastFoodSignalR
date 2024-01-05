@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FastFoodSignalR.DtoLayer.ContactDto;
+using FastFoodSignalR.DtoLayer.DiscountDto;
 using FastFoodSignalR.Entity.Entities;
 
 namespace SignalRAPI.Mapping
@@ -8,10 +8,10 @@ namespace SignalRAPI.Mapping
     {
         public DiscountMapping()
         {
-            CreateMap<Discount,UpdateContactDto>().ReverseMap();   
-            CreateMap<Discount,CreateContactDto>().ReverseMap();   
-            CreateMap<Discount,GetContactDto>().ReverseMap();   
-            CreateMap<Discount,ResultContactDto>().ReverseMap();   
+            CreateMap<Discount, CreateDiscountDto>().ReverseMap();   
+            CreateMap<Discount, GetDiscountDto>().ReverseMap();   
+            CreateMap<Discount, ResultDiscountDto>().ReverseMap();   
+            CreateMap<Discount, UpdateDiscountDto>().ReverseMap();   
         }
     }
 }

@@ -50,6 +50,11 @@ builder.Services.AddScoped<IOrderDetailDal, efOrderDetailDal>();
 builder.Services.AddScoped<IMoneyCaseService, MoneyCaseManager>();
 builder.Services.AddScoped<IMoneyCaseDal, efMoneyCaseDal>();
 
+
+builder.Services.AddScoped<ISliderService, SliderManager>();
+builder.Services.AddScoped<ISliderDal, efSliderDal>();
+
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",

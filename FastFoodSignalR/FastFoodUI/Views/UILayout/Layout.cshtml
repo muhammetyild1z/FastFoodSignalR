@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    @await Component.InvokeAsync("_UILayoutHeadPartialComponent")
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="~/feane/images/hero-bg.jpg" alt="">
+        </div>
+        <!-- header section strats -->
+        @await Component.InvokeAsync("_UIHeaderPartialComponent")
+        <!-- end header section -->
+       
+   
+        @RenderBody()
+   
+
+    
+
+    @await Component.InvokeAsync("_UIFooterPartialComponent")
+    @await Component.InvokeAsync("_UIScriptPartialComponent")
+</body>
+
+</html>

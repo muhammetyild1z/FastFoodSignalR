@@ -9,5 +9,6 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
 {
     public interface IDiscountService : IGenericService<Discount>
     {
+       
     }
 }

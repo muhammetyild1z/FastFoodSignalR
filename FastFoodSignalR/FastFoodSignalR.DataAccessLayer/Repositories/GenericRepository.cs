@@ -1,5 +1,6 @@
 ﻿using FastFoodSignalR.DataAccessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Concrate;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +38,7 @@ namespace FastFoodSignalR.DataAccessLayer.Repositories
 
         public List<T> GetListAll()
         {
-            return _context.Set<T>().ToList();
+            return _context.Set<T>().AsNoTracking().ToList();
         }
 
        
