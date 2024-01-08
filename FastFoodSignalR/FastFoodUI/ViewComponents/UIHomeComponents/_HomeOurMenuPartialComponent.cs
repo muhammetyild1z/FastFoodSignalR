@@ -1,10 +1,11 @@
-﻿using FastFoodUI.Dtos.ProductDtos;
+﻿using FastFoodUI.Dtos.CategoryDtos;
+using FastFoodUI.Dtos.ProductDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace FastFoodUI.ViewComponents.UIndexComponents
 {
-    public class _HomeOurMenuPartialComponent:ViewComponent
+    public class _HomeOurMenuPartialComponent : ViewComponent
     {
         private readonly HttpClient _httpClient;
         public _HomeOurMenuPartialComponent()
@@ -15,21 +16,33 @@ namespace FastFoodUI.ViewComponents.UIndexComponents
             _httpClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task< IViewComponentResult> InvokeAsync()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            HttpResponseMessage responseMessage =await _httpClient.GetAsync("ListProduct");
+            HttpResponseMessage responseMessage = await _httpClient.GetAsync("ListProduct");
             if (responseMessage.IsSuccessStatusCode)
             {
-                var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var menu = JsonConvert.DeserializeObject<ResultProductDto>(jsonData);
-                return View(menu);
+                HttpResponseMessage responseMessageCat = await _httpClient.GetAsync("https://localhost:7088/api/Category/ListCategory");
+                if (responseMessageCat.IsSuccessStatusCode)
+                {
+                    var categoryJson= await responseMessageCat.Content.ReadAsStringAsync();
+                    ViewBag.category = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(categoryJson).Select(x=>x.CategoryName);
+                    var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                    var menu = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+                    return View(menu.Take(9).ToList());
+                }
+                else
+                {
+                    ViewBag.MenuErr = "Not Found";
+                    return View();
+                }
             }
             else
             {
                 ViewBag.MenuErr = "Not Found";
                 return View();
             }
-         
+
+
         }
     }
 }

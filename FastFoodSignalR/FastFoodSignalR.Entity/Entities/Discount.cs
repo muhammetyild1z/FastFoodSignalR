@@ -13,6 +13,8 @@ namespace FastFoodSignalR.Entity.Entities
         public decimal DiscountPrice { get; set; }
         //public string DiscountProductDesc { get; set; }           
         public DateTime DiscountOverTime { get; set; }
-    
+
+        public int? ProductID { get; set; }
+        public Product product { get; set; }
     }
 }

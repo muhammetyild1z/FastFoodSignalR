@@ -19,24 +19,15 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
         {
             _fastFoodContext = fastFoodContext;
         }
-        public List<Product> GetListDiscountIncludeProduct()
-        {
-            FastFoodContext c = new FastFoodContext();
-            return c.Products.Include(x => x.discount).Where(x => x.DiscountID != null).AsNoTracking().ToList();
-
-        }
-        public List<Product> DiscountWithProductInclude()
-        {
-           return _fastFoodContext.Products.Include(x=>x.discount).ToList();
-       
-        }
-
+   
         public List<Product> GetIncludeProductWithCategory()
         {
 
             return
                 _fastFoodContext.Products.Include(x => x.Category).ToList();
         }
+
+     
 
         public decimal HamburgerPriceAVG()
         {

@@ -1,13 +1,14 @@
-﻿namespace FastFoodUI.Dtos.DiscountDto
+﻿using FastFoodSignalR.Entity.Entities;
+
+namespace FastFoodUI.Dtos.DiscountDto
 {
     public class ResultDiscountDto
     {
-        public int discountID { get; set; }
-        public string discountProductName { get; set; }
-        public int discountAmount { get; set; }
-        public string discountProductDesc { get; set; }
-        public string discountImageUrl { get; set; }
-        public decimal drodutPrice { get; set; }
-        public DateTime discountOverTime { get; set; }
+        public int DiscountID { get; set; }
+        public int DiscountAmount { get; set; }
+        public decimal DiscountPrice { get; set; }
+        //public string DiscountProductDesc { get; set; }           
+        public DateTime DiscountOverTime { get; set; }
+        public Product product { get; set; }
     }
 }

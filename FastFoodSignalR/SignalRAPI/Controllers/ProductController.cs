@@ -31,7 +31,7 @@ namespace SignalRAPI.Controllers
         [HttpGet("ListProduct")]
         public IActionResult ListProduct()
         {
-            var products = _productservice.TGetListAll();
+            var products = _productservice.TGetIncludeProductWithCategory();
             return Ok(products);
         }
 

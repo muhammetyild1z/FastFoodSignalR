@@ -44,7 +44,10 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _discount.GetListAll();
         }
 
-     
+        public List<Discount> TGetListDiscountIncludeProduct()
+        {
+            return _discount.GetListDiscountIncludeProduct();
+        }
 
         public void Update(Discount entity , Discount unchanged)
         {

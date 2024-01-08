@@ -50,10 +50,7 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
             return _productDal.GetListAll();
         }
 
-        public List<Product> TGetListDiscountIncludeProduct()
-        {
-            return _productDal.GetListDiscountIncludeProduct();
-        }
+        
 
         public Product TGetProductById(int id)
         {

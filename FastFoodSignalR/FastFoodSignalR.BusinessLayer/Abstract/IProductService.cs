@@ -9,7 +9,7 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
 {
     public interface IProductService : IGenericService<Product>
     {
-        List<Product> TGetListDiscountIncludeProduct();
+      
         List<Product> TGetIncludeProductWithCategory();
       
         Product TGetProductById(int id);

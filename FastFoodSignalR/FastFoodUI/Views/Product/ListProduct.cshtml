@@ -23,11 +23,11 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td> <input type="hidden" value="@item.CategoryID"/></td>
+                <td> <input type="hidden" value="@item.Category.CategoryID"/></td>
                 <td>@item.ProductName</td>
                 <td>@item.ProductDescription</td>
                 <td>@item.ProductImageUrl</td>
-                <td>@item.CategoryID</td>
+                <td>@item.Category.CategoryID</td>
                 <td>@item.ProductStatus</td>
                 <td>@item.ProductPrice</td>
                 <td>@item.ProductDescription</td>

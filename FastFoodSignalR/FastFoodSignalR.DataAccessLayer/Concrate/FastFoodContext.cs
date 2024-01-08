@@ -14,7 +14,7 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-CH9SD0T; initial Catalog=FastFoodSignalR_DB_test;Integrated Security=true");
-
+      
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Booking> Bookings { get; set; }
@@ -37,8 +37,8 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
             modelBuilder.Entity<About>().HasKey(x => x.AboutID);
             modelBuilder.Entity<Booking>().HasKey(x => x.BookindID);
             modelBuilder.Entity<Category>().HasKey(x => x.CategoryID);
-            modelBuilder.Entity<Product>().HasKey(x => x.ProductID);
-            modelBuilder.Entity<Discount>().HasKey(x => x.DiscountID);
+            modelBuilder.Entity<Product>().HasKey(x =>new { x.ProductID });
+            modelBuilder.Entity<Discount>().HasKey(x =>new { x.DiscountID , x.ProductID});
             modelBuilder.Entity<Feature>().HasKey(x => x.FeauteID);
             modelBuilder.Entity<SocialMedia>().HasKey(x => x.SocialMediaID);
             modelBuilder.Entity<Testimonial>().HasKey(x => x.TestimonialID);
@@ -48,14 +48,14 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
 
             modelBuilder.Entity<Product>()
                 .HasOne(x => x.Category)
-           .WithMany(x => x.Products)
+           .WithMany()
            .HasForeignKey(x => x.CategoryID);
 
 
-            modelBuilder.Entity<Product>()
-                .HasOne(x => x.discount)
+            modelBuilder.Entity<Discount>()
+                .HasOne(x => x.product)
             .WithMany()
-            .HasForeignKey(x => x.DiscountID);
+            .HasForeignKey(x => x.ProductID);
             // .HasPrincipalKey(x => x.DiscountID);
 
 

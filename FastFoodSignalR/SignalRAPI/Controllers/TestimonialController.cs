@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class TestimonialController : Controller
     {
         private readonly ITestimonialService _testimonialService;

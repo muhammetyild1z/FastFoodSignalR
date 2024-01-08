@@ -1,5 +1,6 @@
 ﻿using FastFoodSignalR.BusinessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Concrate;
+using FastFoodSignalR.Entity.Entities;
 using Microsoft.AspNetCore.SignalR;
 
 namespace SignalRAPI.Hubs
@@ -10,6 +11,7 @@ namespace SignalRAPI.Hubs
         private readonly IProductService _productService;
         private readonly IOrderService _orderService;
         private readonly IMoneyCaseService _moneyCase;
+        private readonly IDiscountService _discountService;
 
         public SignalRHub(ICategoryService categoryService, IProductService productService, IOrderService orderService, IMoneyCaseService moneyCase)
         {
@@ -29,7 +31,6 @@ namespace SignalRAPI.Hubs
             await Clients.All.SendAsync("ReceivePassiveProductCount", productPassiveCount);
         }
 
-
         public async Task SendProduct()
         {
             var productCount = _productService.TGetListAll().Count();
@@ -46,7 +47,7 @@ namespace SignalRAPI.Hubs
 
         public async Task SendOrder()
         {
-            var totalOrderCount= _orderService.TTotalOrderCount();
+            var totalOrderCount = _orderService.TTotalOrderCount();
             var lastOrderPrice = _orderService.TLastOrderPrice();
             var aktiveOrderCount = _orderService.TTotalAktiveOrder();
             var tableCount = _orderService.TTableOrderCount();
@@ -59,13 +60,30 @@ namespace SignalRAPI.Hubs
             await Clients.All.SendAsync("ReceiveTableCount", tableCount);
             await Clients.All.SendAsync("ReceiveTodayEarnig", todayEarnig);
         }
-            
+
         public async Task SendCase()
         {
-            
-            var todayEarnig = _moneyCase.TCaseSumPrice();        
+
+            var todayEarnig = _moneyCase.TCaseSumPrice();
             await Clients.All.SendAsync("ReceiveTodayTotalCase", todayEarnig);
-            await Clients.All.SendAsync("ReceiveTotalCase", todayEarnig.ToString("0.00")+ "₺");
+            await Clients.All.SendAsync("ReceiveTotalCase", todayEarnig.ToString("0.00") + "₺");
+        }
+
+        public async Task DiscountDown(DateTime endDate ,int DiscountID)
+        {
+            var currentTime = DateTime.Now;
+            var timeRemaining = endDate - currentTime;
+            await Groups.AddToGroupAsync(Context.ConnectionId,DiscountID.ToString());       
+
+            while (timeRemaining.TotalSeconds > 0)
+            {
+                await Clients.Groups(DiscountID.ToString()).SendAsync("ReceiveCountdown", timeRemaining.ToString(@"dd\.hh\:mm\:ss"));
+                await Task.Delay(1000);
+                currentTime = DateTime.Now;
+                timeRemaining = endDate - currentTime;
+            }
+
+            await Clients.Groups(DiscountID.ToString()).SendAsync("ReceiveCountdown", "Kampanya Bitti");
         }
     }
 }

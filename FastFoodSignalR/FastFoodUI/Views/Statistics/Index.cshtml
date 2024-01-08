@@ -54,14 +54,14 @@
 
                 $("#aVGProductPrice").text(aVGProductPrice + " ₺");
             })
-            // Gelen Liste Elemanlarini Tek Tek Alinmasi Gerekiyor
+           
             connection.on("ReceiveMinproductPrice", (item1, item2) => {
 
                 $("#minproductName").text(item1 + " ₺");
                 $("#minproductPrice").text(item2 );
                 
             })
-            // Gelen Liste Elemanlarini Tek Tek Alinmasi Gerekiyor
+           
             connection.on("ReceiveMaxproductPrice", (item1, item2) => {
 
 

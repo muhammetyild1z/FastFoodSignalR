@@ -135,6 +135,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DiscountID"), 1L, 1);
 
+                    b.Property<int?>("ProductID")
+                        .HasColumnType("int");
+
                     b.Property<int>("DiscountAmount")
                         .HasColumnType("int");
 
@@ -144,7 +147,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<decimal>("DiscountPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("DiscountID");
+                    b.HasKey("DiscountID", "ProductID");
+
+                    b.HasIndex("ProductID");
 
                     b.ToTable("Discounts");
                 });
@@ -259,10 +264,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("DiscountID")
-                        .IsRequired()
-                        .HasColumnType("int");
-
                     b.Property<string>("ProductDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -284,8 +285,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.HasKey("ProductID");
 
                     b.HasIndex("CategoryID");
-
-                    b.HasIndex("DiscountID");
 
                     b.ToTable("Products");
                 });
@@ -368,6 +367,17 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
+            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Discount", b =>
+                {
+                    b.HasOne("FastFoodSignalR.Entity.Entities.Product", "product")
+                        .WithMany()
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("product");
+                });
+
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.OrderDetail", b =>
                 {
                     b.HasOne("FastFoodSignalR.Entity.Entities.Order", "order")
@@ -390,25 +400,12 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Product", b =>
                 {
                     b.HasOne("FastFoodSignalR.Entity.Entities.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("FastFoodSignalR.Entity.Entities.Discount", "discount")
-                        .WithMany()
-                        .HasForeignKey("DiscountID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
-
-                    b.Navigation("discount");
-                });
-
-            modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Category", b =>
-                {
-                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("FastFoodSignalR.Entity.Entities.Order", b =>

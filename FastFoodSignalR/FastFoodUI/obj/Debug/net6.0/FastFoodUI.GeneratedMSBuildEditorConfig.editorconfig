@@ -80,10 +80,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVBYm91dFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeCustomersCommentPartialComponent/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVDdXN0b21lcnNDb21tZW50UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeDiscountPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVEaXNjb3VudFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeSliderPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVTbGlkZXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_HomeTestimonialCommentPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVUZXN0aW1vbmlhbENvbW1lbnRQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/FastFoodSignalR/FastFoodSignalR/FastFoodUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]

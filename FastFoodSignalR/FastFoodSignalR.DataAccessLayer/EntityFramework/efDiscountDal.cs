@@ -25,6 +25,9 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 
         }
 
-     
+        public List<Discount> GetListDiscountIncludeProduct()
+        {
+           return _fastFoodContext.Discounts.Include(x=>x.product).ToList();
+        }
     }
 }

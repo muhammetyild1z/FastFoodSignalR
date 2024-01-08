@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FastFoodSignalR.DataAccessLayer.Migrations
 {
-    public partial class mig_1 : Migration
+    public partial class mig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -69,21 +69,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Contacts", x => x.ContactID);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Discounts",
-                columns: table => new
-                {
-                    DiscountID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    DiscountAmount = table.Column<int>(type: "int", nullable: false),
-                    DiscountPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    DiscountOverTime = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Discounts", x => x.DiscountID);
                 });
 
             migrationBuilder.CreateTable(
@@ -187,8 +172,7 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                     ProductPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ProductImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductStatus = table.Column<bool>(type: "bit", nullable: false),
-                    CategoryID = table.Column<int>(type: "int", nullable: false),
-                    DiscountID = table.Column<int>(type: "int", nullable: false)
+                    CategoryID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -199,11 +183,27 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                         principalTable: "Categories",
                         principalColumn: "CategoryID",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Discounts",
+                columns: table => new
+                {
+                    DiscountID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProductID = table.Column<int>(type: "int", nullable: false),
+                    DiscountAmount = table.Column<int>(type: "int", nullable: false),
+                    DiscountPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    DiscountOverTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Discounts", x => new { x.DiscountID, x.ProductID });
                     table.ForeignKey(
-                        name: "FK_Products_Discounts_DiscountID",
-                        column: x => x.DiscountID,
-                        principalTable: "Discounts",
-                        principalColumn: "DiscountID",
+                        name: "FK_Discounts_Products_ProductID",
+                        column: x => x.ProductID,
+                        principalTable: "Products",
+                        principalColumn: "ProductID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -237,6 +237,11 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Discounts_ProductID",
+                table: "Discounts",
+                column: "ProductID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_OrderDetails_OrderID",
                 table: "OrderDetails",
                 column: "OrderID");
@@ -250,11 +255,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
                 name: "IX_Products_CategoryID",
                 table: "Products",
                 column: "CategoryID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Products_DiscountID",
-                table: "Products",
-                column: "DiscountID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -267,6 +267,9 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
             migrationBuilder.DropTable(
                 name: "Contacts");
+
+            migrationBuilder.DropTable(
+                name: "Discounts");
 
             migrationBuilder.DropTable(
                 name: "Features");
@@ -294,9 +297,6 @@ namespace FastFoodSignalR.DataAccessLayer.Migrations
 
             migrationBuilder.DropTable(
                 name: "Categories");
-
-            migrationBuilder.DropTable(
-                name: "Discounts");
         }
     }
 }

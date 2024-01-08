@@ -10,7 +10,7 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
     public interface IProductDal : IGenericDal<Product>
     {
         List<Product> GetIncludeProductWithCategory();
-        List<Product> GetListDiscountIncludeProduct();
+      
 
         int ProductCount();
         decimal ProductPriceAVG();
