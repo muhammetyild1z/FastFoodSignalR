@@ -39,7 +39,7 @@ namespace FastFoodSignalR.DataAccessLayer.EntityFramework
 
         public int TotalAktiveOrder()
         {
-            return _fastFoodContext.Orders.Count(x => x.OrderStatus == true);
+            return _fastFoodContext.Orders.Count(x => x.OrderStatus == false);
         }
 
         public int TotalOrderCount()
