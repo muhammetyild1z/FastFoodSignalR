@@ -25,10 +25,10 @@ namespace FastFoodUI.ViewComponents.UIndexComponents
                 if (responseMessageCat.IsSuccessStatusCode)
                 {
                     var categoryJson= await responseMessageCat.Content.ReadAsStringAsync();
-                    ViewBag.category = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(categoryJson).Select(x=>x.CategoryName);
+                    ViewBag.category = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(categoryJson).Select(x=>x.CategoryName).Take(5).ToList();
                     var jsonData = await responseMessage.Content.ReadAsStringAsync();
                     var menu = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-                    return View(menu.Take(9).ToList());
+                    return View(menu);
                 }
                 else
                 {

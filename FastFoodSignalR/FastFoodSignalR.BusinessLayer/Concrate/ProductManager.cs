@@ -57,10 +57,10 @@ namespace FastFoodSignalR.BusinessLayer.Concrate
           return (_productDal.GetListAll().Where(x=>x.ProductID==id).FirstOrDefault());
         }
 
-        public decimal THamburgerPriceAVG()
-        {
-            return _productDal.HamburgerPriceAVG();
-        }
+        //public decimal THamburgerPriceAVG()
+        //{
+        //    return _productDal.HamburgerPriceAVG();
+        //}
 
         public decimal TProductPriceAVG()
         {

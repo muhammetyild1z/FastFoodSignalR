@@ -21,12 +21,12 @@ namespace SignalRAPI.Controllers
             
         }
         
-        [HttpGet("THamburgerPriceAVG")]
-        public IActionResult THamburgerPriceAVG()
-        {
-            var products = _productservice.THamburgerPriceAVG();
-            return Ok(products);
-        }
+        //[HttpGet("THamburgerPriceAVG")]
+        //public IActionResult THamburgerPriceAVG()
+        //{
+        //    var products = _productservice.THamburgerPriceAVG();
+        //    return Ok(products);
+        //}
 
         [HttpGet("ListProduct")]
         public IActionResult ListProduct()

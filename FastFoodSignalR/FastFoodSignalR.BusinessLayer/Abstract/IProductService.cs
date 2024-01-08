@@ -17,7 +17,7 @@ namespace FastFoodSignalR.BusinessLayer.Abstract
         decimal TProductPriceAVG();
         (decimal, string) TProductPriceMax();
         (decimal, string) TProductPriceMin();
-        decimal THamburgerPriceAVG();
+      //  decimal THamburgerPriceAVG();
 
 
     }

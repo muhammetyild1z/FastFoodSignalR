@@ -16,6 +16,6 @@ namespace FastFoodSignalR.DataAccessLayer.Abstract
         decimal ProductPriceAVG();
         (decimal, string) ProductPriceMax();
         (decimal, string) ProductPriceMin();
-        decimal HamburgerPriceAVG();
+      //  decimal HamburgerPriceAVG();
     }
 }

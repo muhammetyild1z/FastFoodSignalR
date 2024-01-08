@@ -37,12 +37,12 @@ namespace SignalRAPI.Hubs
             var AVGproductPrice = _productService.TProductPriceAVG();
             var MaxproductPrice = _productService.TProductPriceMax();
             var MinproductPrice = _productService.TProductPriceMin();
-            var AVGHamburgerPrice = _productService.THamburgerPriceAVG();
+           // var AVGHamburgerPrice = _productService.THamburgerPriceAVG();
             await Clients.All.SendAsync("ReceiveProductCount", productCount);
-            await Clients.All.SendAsync("ReceiveAVGproductPrice", AVGproductPrice);
+            await Clients.All.SendAsync("ReceiveAVGproductPrice", AVGproductPrice.ToString("0.00"));
             await Clients.All.SendAsync("ReceiveMaxproductPrice", MaxproductPrice.Item1, MaxproductPrice.Item2);
             await Clients.All.SendAsync("ReceiveMinproductPrice", MinproductPrice.Item1, MinproductPrice.Item2);
-            await Clients.All.SendAsync("ReceiveAVGHamburgerPrice", AVGHamburgerPrice);
+         //   await Clients.All.SendAsync("ReceiveAVGHamburgerPrice", AVGHamburgerPrice);
         }
 
         public async Task SendOrder()
@@ -77,7 +77,10 @@ namespace SignalRAPI.Hubs
 
             while (timeRemaining.TotalSeconds > 0)
             {
-                await Clients.Groups(DiscountID.ToString()).SendAsync("ReceiveCountdown", timeRemaining.ToString(@"dd\.hh\:mm\:ss"));
+                TimeSpan discountOverString = new TimeSpan(timeRemaining.Days, timeRemaining.Hours, timeRemaining.Minutes, timeRemaining.Seconds);
+                await Clients.Groups(DiscountID.ToString()).SendAsync("ReceiveCountdown", $"{(int)discountOverString.TotalDays} Gün {discountOverString.Hours} Saat {discountOverString:mm\\:ss} Dakika");
+               
+                //ToString(@"dd\.hh\:mm\:ss"));
                 await Task.Delay(1000);
                 currentTime = DateTime.Now;
                 timeRemaining = endDate - currentTime;

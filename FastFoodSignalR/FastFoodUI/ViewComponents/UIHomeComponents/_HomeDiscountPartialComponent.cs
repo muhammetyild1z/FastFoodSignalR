@@ -21,7 +21,7 @@ namespace FastFoodUI.ViewComponents.UIndexComponents
             {
                 var jsonData= await responseMessage.Content.ReadAsStringAsync();
                 var discounts = JsonConvert.DeserializeObject<List<ResultDiscountDto>>(jsonData);
-                return View(discounts);
+                return View(discounts.Take(6).ToList());
             }
             else
             {
