@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRAPI.Controllers
 {
+    [ApiController]
+    [Route("/api/[controller]")]
     public class SocialMediaController : Controller
     {
         private readonly ISocialMediaService _socialMediaService;

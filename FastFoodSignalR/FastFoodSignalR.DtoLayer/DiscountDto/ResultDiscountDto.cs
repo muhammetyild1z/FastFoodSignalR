@@ -16,5 +16,6 @@ namespace FastFoodSignalR.DtoLayer.DiscountDto
         public DateTime DiscountOverTime { get; set; }
         public int ProductID { get; set; }
         public Product product { get; set; }
+        public string DiscountCartColor { get; set; }
     }
 }

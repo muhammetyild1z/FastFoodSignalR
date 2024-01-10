@@ -1,0 +1,45 @@
+﻿@model UpdateContactDto
+@{
+    ViewData["Title"] = "UpdateContact";
+    Layout = "~/Areas/Admin/Views/Layout/Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">Kategori Guncelleme</div>
+    </div>
+
+    <form method="post">
+        <div class="card-body">
+            <div class="form-group">
+                <label for="squareInput">Iletisim Adresi</label>
+                <input type="text" class="form-control input-square" id="squareInput" placeholder="Iletisim Adresi" asp-for="ContactLocation">
+                <input type="hidden" asp-for="ContactID">
+            </div>
+                <div class="form-group">
+                <label for="squareInput">Iletisim Numarasi</label>
+                <input type="text" class="form-control input-square" id="squareInput" placeholder="Iletisim Adresi" asp-for="ContactPhone">
+                
+            </div>
+                <div class="form-group">
+                <label for="squareInput">Iletisim Mail Adresi</label>
+                <input type="text" class="form-control input-square" id="squareInput" placeholder="Iletisim Adresi" asp-for="ContactMail">
+              
+            </div>
+             </div>
+                <div class="form-group">
+                <label for="squareInput">Iletisim Mail Adresi</label>
+            <input type="text" class="form-control input-square" id="squareInput" placeholder="Iletisim Bitis Aciklamasi" asp-for="ContactFooterDescription">
+
+            </div>
+        <div class="card-action">
+            <button type="submit" class="btn btn-success">Guncelle</button>
+            @* <button class="btn btn-danger">Cancel</button>*@
+        </div>
+      
+       
+    </form>
+
+</div>
+
+

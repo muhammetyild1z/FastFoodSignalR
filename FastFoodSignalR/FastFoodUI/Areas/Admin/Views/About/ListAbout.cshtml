@@ -1,0 +1,34 @@
+﻿@model List<ResultAboutDto>
+@{
+    ViewData["Title"] = "ListAbout";
+    Layout = "~/Areas/Admin/Views/Layout/Layout.cshtml";
+}
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col"> img</th>
+            <th scope="col"> Baslik</th>
+            <th scope="col"> Aciklama</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Guncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> <input type="hidden" value="@item.AboutID" /></td>
+                <td>@item.AboutImageUrl</td>
+                <td>@item.AboutTitle</td>
+                <td>@item.AboutDescription</td>
+                <td><a href="/About/DeleteAbout/@item.AboutID" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/About/UpdateAbout/@item.AboutID" class="btn btn-outline-success">Guncelle</a></td>
+            </tr>
+        }
+        @ViewBag.ErrorMessage
+    </tbody>
+</table>
+
+

@@ -10,5 +10,7 @@ namespace FastFoodUI.Dtos.DiscountDto
         //public string DiscountProductDesc { get; set; }           
         public DateTime DiscountOverTime { get; set; }
         public Product product { get; set; }
+
+        public string DiscountCartColor { get; set; }
     }
 }

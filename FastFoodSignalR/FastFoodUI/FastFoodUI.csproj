@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FastFoodSignalR.BusinessLayer\FastFoodSignalR.BusinessLayer.csproj" />
-    <ProjectReference Include="..\FastFoodSignalR.Entity\FastFoodSignalR.Entity.csproj" />
   </ItemGroup>
 
 </Project>

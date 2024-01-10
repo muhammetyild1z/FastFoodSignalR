@@ -26,6 +26,13 @@ app.MapRazorPages();
 
 app.MapControllerRoute(
 	name: "default",
-	pattern: "{controller=Statistics}/{action=Index}/{id?}"
+	pattern: "{controller=home}/{action=Index}/{id?}"
     );
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Statistics}/{action=Index}/{id?}"
+    );
+});
 app.Run();

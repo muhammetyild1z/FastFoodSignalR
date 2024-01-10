@@ -13,6 +13,7 @@ namespace FastFoodSignalR.Entity.Entities
         public string BookingMail { get; set; }
         public int BookingPersonCount { get; set; }
         public DateTime BookingDate { get; set; }
-        
+        public string BookingDesciption { get; set; }
+
     }
 }

@@ -4,12 +4,28 @@ using FastFoodSignalR.DataAccessLayer.Abstract;
 using FastFoodSignalR.DataAccessLayer.Concrate;
 using FastFoodSignalR.DataAccessLayer.EntityFramework;
 using FastFoodSignalR.Entity.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using SignalRAPI.Hubs;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FastFoodContext>();
+builder.Services.AddIdentity<AppUser, AppRole>(
+    opt =>
+    {
+        opt.Password.RequireNonAlphanumeric = false;
+        opt.Password.RequiredLength = 1;
+        opt.Password.RequireUppercase = false;
+        opt.Password.RequireLowercase = false;
+        opt.Password.RequireDigit = false;
+    }
+    )
+    // .AddErrorDescriber<CustomerIdentityValidation>()
+    .AddEntityFrameworkStores<FastFoodContext>();
+builder.Services.AddMvc();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
@@ -85,8 +101,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
+app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 

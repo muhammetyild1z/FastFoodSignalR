@@ -29,7 +29,7 @@ namespace SignalRAPI.Controllers
         public IActionResult ListDiscount()
         {
                  
-            return Ok(_discountService.TGetListDiscountIncludeProduct());
+            return Ok(_discountService.TGetListDiscountIncludeProduct().Take(9).ToList());
         }
 
         [HttpGet("GetByIdDiscount")]

@@ -4,6 +4,7 @@ using FastFoodSignalR.DtoLayer.AboutDto;
 using FastFoodSignalR.DtoLayer.ContactDto;
 using FastFoodSignalR.Entity.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace SignalRAPI.Controllers
 {
@@ -45,7 +46,7 @@ namespace SignalRAPI.Controllers
         [HttpGet("GetByIdContact")]
         public IActionResult GetByIdContact()
         {
-            var value = _contactService.TGetListAll().FirstOrDefault();
+            var value =_contactService.TGetListAll().FirstOrDefault();
             return Ok(value);
         }
 

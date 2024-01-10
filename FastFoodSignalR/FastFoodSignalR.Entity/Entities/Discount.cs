@@ -14,6 +14,8 @@ namespace FastFoodSignalR.Entity.Entities
         //public string DiscountProductDesc { get; set; }           
         public DateTime DiscountOverTime { get; set; }
 
+        public string DiscountCartColor { get; set; }
+
         public int? ProductID { get; set; }
         public Product product { get; set; }
     }

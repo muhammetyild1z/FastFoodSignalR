@@ -1,0 +1,14 @@
+﻿@model List< ResultSocialMediaDto>
+
+
+
+
+    <div class="footer_social">
+    @foreach (var item in Model)
+    {
+        <a target="_blank" href="@item.SocialMediaUrl " onmouseup="@item.SocialMediaTitle">
+            <i class="@item.SocialMediaIcon" aria-hidden="true"></i>
+        </a>
+    }
+       
+    </div>

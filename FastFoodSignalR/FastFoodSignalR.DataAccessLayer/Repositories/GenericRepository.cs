@@ -40,9 +40,7 @@ namespace FastFoodSignalR.DataAccessLayer.Repositories
         {
             return _context.Set<T>().AsNoTracking().ToList();
         }
-
        
-
         public void Update(T entity, T unchanged)
         {
             _context.Entry(unchanged).CurrentValues.SetValues(entity);

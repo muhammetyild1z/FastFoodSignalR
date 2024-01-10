@@ -18,11 +18,11 @@ namespace SignalRAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("ListFeature")]
+        [HttpGet("ListFeature")]    
         public IActionResult ListFeature()
-        {
-            var values = _featureService.TGetListAll();
-            return Ok(values);
+        {   
+            var values =_mapper.Map<ResultFeatureDto>(_featureService.TGetListAll);       
+            return Ok(values);  
         }
 
         [HttpGet("GetByIdFeature")]

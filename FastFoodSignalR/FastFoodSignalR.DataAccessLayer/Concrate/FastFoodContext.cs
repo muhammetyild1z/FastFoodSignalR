@@ -1,4 +1,5 @@
 ﻿using FastFoodSignalR.Entity.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FastFoodSignalR.DataAccessLayer.Concrate
 {
-    public class FastFoodContext : DbContext
+    public class FastFoodContext : IdentityDbContext<AppUser, AppRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,7 +34,7 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Slider>().HasKey(x => x.SliderID);
+            modelBuilder.Entity<Slider>().HasKey(x => x.SliderID); 
             modelBuilder.Entity<About>().HasKey(x => x.AboutID);
             modelBuilder.Entity<Booking>().HasKey(x => x.BookindID);
             modelBuilder.Entity<Category>().HasKey(x => x.CategoryID);
@@ -51,13 +52,11 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
            .WithMany()
            .HasForeignKey(x => x.CategoryID);
 
-
             modelBuilder.Entity<Discount>()
                 .HasOne(x => x.product)
             .WithMany()
             .HasForeignKey(x => x.ProductID);
             // .HasPrincipalKey(x => x.DiscountID);
-
 
             modelBuilder.Entity<OrderDetail>().
                 HasOne(x => x.product)
@@ -69,9 +68,7 @@ namespace FastFoodSignalR.DataAccessLayer.Concrate
               .WithMany(x => x.orderDetails)
               .HasForeignKey(x => x.OrderID);
 
-
-
-
+            base.OnModelCreating(modelBuilder);
         }
     }
 
