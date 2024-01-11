@@ -1,6 +1,6 @@
-﻿@model SignUpDto
+﻿@model SignInDto
 @{
-    ViewData["Title"] = "SignUp";
+    ViewData["Title"] = "SignIn";
     Layout = "~/Views/UILayout/Layout.cshtml";
 }
 </div>
@@ -8,11 +8,11 @@
     <!-- Pills navs -->
     <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
         <li class="nav-item" role="presentation">
-            <a class="nav-link " id="tab-login" data-mdb-toggle="pill" href="/Account/SignIn" role="tab"
+            <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="/Account/SignIn/" role="tab"
                aria-controls="pills-login" aria-selected="true">Giris Yap</a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="tab-register" data-mdb-toggle="pill" href="/Account/SignUp" role="tab"
+            <a class="nav-link " id="tab-register" data-mdb-toggle="pill" href="/Account/SignUp/" role="tab"
                aria-controls="pills-register" aria-selected="false">Uye Ol</a>
         </li>
     </ul>
@@ -48,51 +48,42 @@
                         <input asp-for="UserName" type="text" id="loginName" class="form-control " placeholder="Kullanici adi" />
 
                     </div>
-                    <div class="form-outline mb-4">
-                        <input asp-for="UserPhoneNumber" type="tel" maxlength="10" id="loginName" class="form-control " placeholder="Telefon Numarasi (10 karakter girin)" />
-
-                    </div>
-                    <div class="form-outline mb-4">
-                        <input asp-for="Email" type="email" id="loginName" class="form-control " placeholder="Mail Adresi" />
-
-                    </div>
+                  
+                 
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
                         <input asp-for="Password" type="password" id="loginPassword" class="form-control " placeholder="Sifre" />
 
                     </div>
-                    <div class="form-outline mb-4">
-                        <input asp-for="PasswordConfirm" type="password" id="loginPassword" class="form-control " placeholder="Sifre Tekrar" />
+                 
+                </div>
 
-                    </div>
-                    </div>
-
-                    <!-- 2 column grid layout -->
-                    <div class="row mb-4">
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <!-- Checkbox -->
-                            <div class="form-check mb-3 mb-md-0">
-                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-                                <label class="form-check-label" for="loginCheck"> Beni hatirla </label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <!-- Simple link -->
-                            <a href="#!">Sifreni mi Unuttun?</a>
+                <!-- 2 column grid layout -->
+                <div class="row mb-4">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check mb-3 mb-md-0">
+                            <input class="form-check-input" type="checkbox"  asp-for="RememberMe" id="rememberMe"  />
+                            <label class="form-check-label" for="rememberMe"> Beni hatirla </label>
                         </div>
                     </div>
 
-                    <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Giris Yap</button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                        <p>Not a member? <a href="#!">Uye Ol</a></p>
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Simple link -->
+                        <a href="#!">Sifreni mi Unuttun?</a>
                     </div>
-           
-             
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Giris Yap</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Üye değil misin? <a href="#!">Uye Ol</a></p>
+                </div>
+
+
             </form>
         </div>
 
@@ -101,7 +92,7 @@
         <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
             <form>
                 <div class="text-center mb-3">
-                    <p>Kayit Ol</p>
+                    <p>Giriş Yap</p>
                     <button type="button" class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-facebook-f"></i>
                     </button>
@@ -121,47 +112,33 @@
 
                 <p class="text-center">or:</p>
 
-                <!-- Name input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerName" class="form-control" />
-                    <label class="form-label" for="registerName">Name</label>
-                </div>
+              
 
                 <!-- Username input -->
                 <div class="form-outline mb-4">
                     <input type="text" id="registerUsername" class="form-control" />
-                    <label class="form-label" for="registerUsername">Kullanici Adi</label>
+                    <label class="form-label" for="registerUsername">Kullanici Adı</label>
                 </div>
 
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                    <input type="email" id="registerEmail" class="form-control" />
-                    <label class="form-label" for="registerEmail">Eposta</label>
-                </div>
+             
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
                     <input type="password" id="registerPassword" class="form-control" />
-                    <label class="form-label" for="registerPassword">Sife</label>
-                </div>
-
-                <!-- Repeat Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="registerRepeatPassword" class="form-control" />
-                    <label class="form-label" for="registerRepeatPassword">sifre tekrar</label>
-                </div>
+                    <label class="form-label" for="registerPassword">Şifre</label>
+                </div>           
 
                 <!-- Checkbox -->
-                @*   <div class="form-check d-flex justify-content-center mb-4">
+              @*     <div class="form-check d-flex justify-content-center mb-4">
                 <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
                 aria-describedby="registerCheckHelpText" />
                 <label class="form-check-label" for="registerCheck">
-                I have read and agree to the terms
+              Beni Hatırla
                 </label>
                 </div>*@
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-3">G'r'; Yap</button>
+                <button type="submit" class="btn btn-primary btn-block mb-3">Giriş Yap</button>
             </form>
         </div>
     </div>
@@ -173,14 +150,14 @@
 
         Swal.fire({
             title: "@ViewBag.UserCreateSuccess",
-          text:"Giriş Ekranına Yönlendiriliyorsunuz.. ",
+            text: "Giriş Ekranına Yönlendiriliyorsunuz.. ",
             icon: "success",
             confirmButtonText: 'Tamam',
             showCancelButton: false,
-         @*   cancelButtonText: 'Iptal et',
-            dangerMode: true,*@
+        @*   cancelButtonText: 'Iptal et',
+        dangerMode: true,*@
 
-        })
+                })
     </script>
 }
 
