@@ -23,34 +23,65 @@ namespace SignalRAPI.Controllers
 
         [HttpPost("SignIn")]
         public async Task<IActionResult> SignIn(SignInDto signInDto)
-        {        
-            var result = await _signInManager.PasswordSignInAsync(signInDto.UserName, signInDto.Password,signInDto.RememberMe,true);
+        {
+            var result = await _signInManager.PasswordSignInAsync(signInDto.UserName, signInDto.Password, signInDto.RememberMe, true);
             if (result.Succeeded)
             {
                 return Ok();
             }
-            return NotFound();
+            if (result.IsLockedOut)
+            {
+                return StatusCode(423, "Hesap Kilitli Durumda");
+            }
+            if (result.RequiresTwoFactor)
+            {
+                return StatusCode(428, "Two-factor Doğrulaması yapılmadı");
+            }
+            else
+            {
+                return StatusCode(401, result.ToString());
+            }
+
         }
         [HttpPost("SignUp")]
         public async Task<IActionResult> SignUp(SignUpDto signUpDto)
         {
             var emailCheck = await _userManager.FindByEmailAsync(signUpDto.Email);
-            var userNameCheck = await _userManager.FindByNameAsync(signUpDto.UserName);
-            if (signUpDto.Password==signUpDto.PasswordConfirm && emailCheck==null && userNameCheck==null )
+           
+            if (signUpDto.Password == signUpDto.PasswordConfirm)
             {
                 var result = await _userManager.CreateAsync(_mapper.Map<AppUser>(signUpDto), signUpDto.Password);
-                if (result.Succeeded)
+                if (ModelState.IsValid)
                 {
-                    return Ok();
+                    if (result.Succeeded)
+                    {
+                        return Ok();
+                    }
+                    else if (emailCheck != null)
+                    {
+
+                        return StatusCode(400, "Bu Mail Adresi Kayitli");
+                    }
                 }
-            }         
-            return NotFound();
+               
+                else 
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError("UserName", item.Description);
+                    }
+                }
+             
+            }
+          
+            return StatusCode( 404 ,"Hata Yoneticiyle Iletisime Gecin.");
         }
-       
-        //public IActionResult SignOut()
-        //{
-        //    return Ok();
-        //}
+        [HttpPost("SignOut")]
+        public async Task<IActionResult> SignOut()
+        {
+            await _signInManager.SignOutAsync();
+            return Ok();
+        }
     }
 }
 

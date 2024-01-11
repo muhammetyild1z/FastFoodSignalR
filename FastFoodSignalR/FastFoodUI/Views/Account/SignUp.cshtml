@@ -22,7 +22,7 @@
         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
             <form method="post">
                 <div class="text-center mb-3">
-                    <p>Sign in with:</p>
+                    <p>Veya:</p>
                     <button type="button" class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-facebook-f"></i>
                     </button>
@@ -40,21 +40,24 @@
                     </button>
                 </div>
 
-                <p class="text-center">or:</p>
+                <p class="text-center">Veya:</p>
 
                 <div class="col-md-6 m-auto">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <input asp-for="UserName" type="text" id="loginName" class="form-control " placeholder="Kullanici adi" />
+                       <span class="text-danger"> @ViewBag.UserCreateUser </span>
 
                     </div>
                     <div class="form-outline mb-4">
                         <input asp-for="UserPhoneNumber" type="tel" maxlength="10" id="loginName" class="form-control " placeholder="Telefon Numarasi (10 karakter girin)" />
-
+                       <span class="text-danger">
+                            @ViewBag.UserNumber
+                       </span> 
                     </div>
                     <div class="form-outline mb-4">
                         <input asp-for="Email" type="email" id="loginName" class="form-control " placeholder="Mail Adresi" />
-
+                        <span class="text-danger"> @ViewBag.UserCreateMail </span>
                     </div>
 
                     <!-- Password input -->
@@ -66,33 +69,33 @@
                         <input asp-for="PasswordConfirm" type="password" id="loginPassword" class="form-control " placeholder="Sifre Tekrar" />
 
                     </div>
-                    </div>
+                </div>
 
-                    <!-- 2 column grid layout -->
-                    <div class="row mb-4">
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <!-- Checkbox -->
-                            <div class="form-check mb-3 mb-md-0">
-                                <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-                                <label class="form-check-label" for="loginCheck"> Beni hatirla </label>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <!-- Simple link -->
-                            <a href="#!">Sifreni mi Unuttun?</a>
+                <!-- 2 column grid layout -->
+                <div class="row mb-4">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check mb-3 mb-md-0">
+                            <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                            <label class="form-check-label" for="loginCheck"> Beni hatirla </label>
                         </div>
                     </div>
 
-                    <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Giris Yap</button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                        <p>Not a member? <a href="#!">Uye Ol</a></p>
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <!-- Simple link -->
+                        <a href="#!">Sifreni mi Unuttun?</a>
                     </div>
-           
-             
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Giris Yap</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Uye Degil Misin? <a href="/Account/SignUp">Uye Ol</a></p>
+                </div>
+
+
             </form>
         </div>
 
@@ -122,27 +125,32 @@
                 <p class="text-center">or:</p>
 
                 <!-- Name input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerName" class="form-control" />
-                    <label class="form-label" for="registerName">Name</label>
-                </div>
+               @* <div class="form-outline mb-4">
+                    <input type="text" id="registerName" class="form-control"  placeholder="Kullanici Adi"/>
+                 
+                </div>*@
 
                 <!-- Username input -->
                 <div class="form-outline mb-4">
-                    <input type="text" id="registerUsername" class="form-control" />
-                    <label class="form-label" for="registerUsername">Kullanici Adi</label>
+                    <input type="text" id="registerUsername" class="form-control" placeholder="Kullanici Adi"/>
+                    <span class="text-danger">  @ViewBag.UserCreateUser </span>
                 </div>
-
+                <div class="form-outline mb-4">
+                    <input asp-for="UserPhoneNumber" type="tel" maxlength="10" id="loginName" class="form-control " placeholder="Telefon Numarasi (10 karakter girin)" />
+                    <span class="text-danger">
+                        @ViewBag.UserNumber
+                    </span>
+                </div>
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <input type="email" id="registerEmail" class="form-control" />
-                    <label class="form-label" for="registerEmail">Eposta</label>
+                    <input type="email" id="registerEmail" class="form-control"  placeholder="Email"/>
+                    <span class="text-danger">     @ViewBag.UserCreateMail  </span>
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
                     <input type="password" id="registerPassword" class="form-control" />
-                    <label class="form-label" for="registerPassword">Sife</label>
+                    <label class="form-label" for="registerPassword">Sifre</label>
                 </div>
 
                 <!-- Repeat Password input -->
@@ -161,26 +169,34 @@
                 </div>*@
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-3">G'r'; Yap</button>
+                <button type="submit" class="btn btn-primary btn-block mb-3">Uye Ol</button>
             </form>
         </div>
     </div>
     <!-- Pills content -->
+    @Html.ValidationSummary()
 </div>
+
 @if (ViewBag.UserCreateSuccess != null)
 {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
 
         Swal.fire({
-            title: "@ViewBag.UserCreateSuccess",
-          text:"Giriş Ekranına Yönlendiriliyorsunuz.. ",
+            position: "top-end",
             icon: "success",
-            confirmButtonText: 'Tamam',
-            showCancelButton: false,
-         @*   cancelButtonText: 'Iptal et',
-            dangerMode: true,*@
+            title: "@ViewBag.UserCreateSuccess",
+            showConfirmButton: false,
+            timer: 1500
 
-        })
+        }).then(function () {
+            setTimeout(function () {
+
+                window.location.href = '/Account/SignIn';
+            }, 100);
+        });
+
     </script>
 }
 
+   

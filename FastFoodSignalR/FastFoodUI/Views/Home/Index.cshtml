@@ -3,11 +3,11 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/UILayout/Layout.cshtml";
 }
+ 
+    @await Component.InvokeAsync("_HomeSliderPartialComponent")
+    @await Component.InvokeAsync("_HomeDiscountPartialComponent")
+    @*@await Component.InvokeAsync("_HomeOurMenuPartialComponent")
+    *@
+    @await Component.InvokeAsync("_HomeAboutPartialComponent")
+    @await Component.InvokeAsync("_HomeTestimonialCommentPartialComponent")
 
-
-@await Component.InvokeAsync("_HomeSliderPartialComponent")
-@await Component.InvokeAsync("_HomeDiscountPartialComponent")
-@*@await Component.InvokeAsync("_HomeOurMenuPartialComponent")
-*@
-@await Component.InvokeAsync("_HomeAboutPartialComponent")
-@await Component.InvokeAsync("_HomeTestimonialCommentPartialComponent")

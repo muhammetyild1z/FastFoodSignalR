@@ -4,16 +4,17 @@
     Layout = "~/Views/UILayout/Layout.cshtml";
 }
 </div>
+
 <div class="container mt-5">
     <!-- Pills navs -->
     <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="/Account/SignIn/" role="tab"
-               aria-controls="pills-login" aria-selected="true">Giris Yap</a>
+               aria-controls="pills-login" aria-selected="true">Giriş Yap</a>
         </li>
         <li class="nav-item" role="presentation">
             <a class="nav-link " id="tab-register" data-mdb-toggle="pill" href="/Account/SignUp/" role="tab"
-               aria-controls="pills-register" aria-selected="false">Uye Ol</a>
+               aria-controls="pills-register" aria-selected="false">Üye Ol</a>
         </li>
     </ul>
     <!-- Pills navs -->
@@ -22,7 +23,7 @@
         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
             <form method="post">
                 <div class="text-center mb-3">
-                    <p>Sign in with:</p>
+                    <p>Veya:</p>
                     <button type="button" class="btn btn-link btn-floating mx-1">
                         <i class="fab fa-facebook-f"></i>
                     </button>
@@ -40,23 +41,21 @@
                     </button>
                 </div>
 
-                <p class="text-center">or:</p>
+                <p class="text-center">Veya:</p>
 
                 <div class="col-md-6 m-auto">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input asp-for="UserName" type="text" id="loginName" class="form-control " placeholder="Kullanici adi" />
+                        <input asp-for="UserName" type="text" id="loginName" class="form-control " placeholder="Kullanıcı adı" />
 
                     </div>
-                  
-                 
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                        <input asp-for="Password" type="password" id="loginPassword" class="form-control " placeholder="Sifre" />
+                        <input asp-for="Password" type="password" id="loginPassword" class="form-control " placeholder="Şifre" />
 
                     </div>
-                 
+
                 </div>
 
                 <!-- 2 column grid layout -->
@@ -64,23 +63,23 @@
                     <div class="col-md-6 d-flex justify-content-center">
                         <!-- Checkbox -->
                         <div class="form-check mb-3 mb-md-0">
-                            <input class="form-check-input" type="checkbox"  asp-for="RememberMe" id="rememberMe"  />
-                            <label class="form-check-label" for="rememberMe"> Beni hatirla </label>
+                            <input class="form-check-input" type="checkbox" asp-for="RememberMe" id="rememberMe" />
+                            <label class="form-check-label" for="rememberMe"> Beni hatırla </label>
                         </div>
                     </div>
 
                     <div class="col-md-6 d-flex justify-content-center">
                         <!-- Simple link -->
-                        <a href="#!">Sifreni mi Unuttun?</a>
+                        <a href="#!">Şifreni mi Unuttun?</a>
                     </div>
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">Giris Yap</button>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Giriş Yap</button>
 
                 <!-- Register buttons -->
                 <div class="text-center">
-                    <p>Üye değil misin? <a href="#!">Uye Ol</a></p>
+                    <p>Üye değil misin? <a href="/Account/SignIn">Üye Ol</a></p>
                 </div>
 
 
@@ -110,30 +109,30 @@
                     </button>
                 </div>
 
-                <p class="text-center">or:</p>
+                <p class="text-center">Veya:</p>
 
-              
+
 
                 <!-- Username input -->
                 <div class="form-outline mb-4">
                     <input type="text" id="registerUsername" class="form-control" />
-                    <label class="form-label" for="registerUsername">Kullanici Adı</label>
+                    <label class="form-label" for="registerUsername">Kullanicı Adı</label>
                 </div>
 
-             
+
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
                     <input type="password" id="registerPassword" class="form-control" />
                     <label class="form-label" for="registerPassword">Şifre</label>
-                </div>           
+                </div>
 
                 <!-- Checkbox -->
-              @*     <div class="form-check d-flex justify-content-center mb-4">
+                @*     <div class="form-check d-flex justify-content-center mb-4">
                 <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
                 aria-describedby="registerCheckHelpText" />
                 <label class="form-check-label" for="registerCheck">
-              Beni Hatırla
+                Beni Hatırla
                 </label>
                 </div>*@
 
@@ -143,21 +142,45 @@
         </div>
     </div>
     <!-- Pills content -->
+    @if (ViewBag.UserSignInMessageErr != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+
+            Swal.fire({
+                title: "Başarısız Giriş",
+                text: "@ViewBag.UserSignInMessageErr",
+                icon: "error",
+                confirmButtonText: 'Tamam',
+                showCancelButton: false,
+            @*   cancelButtonText: 'Iptal et',
+            dangerMode: true,*@
+
+   })
+
+        </script>
+    }
+    @if (ViewBag.UserSignInMessageSuccess != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "@ViewBag.UserSignInMessageSuccess",
+                showConfirmButton: false,
+                timer: 1500
+
+       }).then(function () {
+                    setTimeout(function () {
+
+                        window.location.href = '/home/index';
+                }, 100);
+                });
+
+        </script>
+    }
+
 </div>
-@if (ViewBag.UserCreateSuccess != null)
-{
-    <script>
-
-        Swal.fire({
-            title: "@ViewBag.UserCreateSuccess",
-            text: "Giriş Ekranına Yönlendiriliyorsunuz.. ",
-            icon: "success",
-            confirmButtonText: 'Tamam',
-            showCancelButton: false,
-        @*   cancelButtonText: 'Iptal et',
-        dangerMode: true,*@
-
-                })
-    </script>
-}
 

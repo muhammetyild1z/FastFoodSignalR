@@ -1,7 +1,9 @@
 ﻿using FastFoodSignalR.BusinessLayer.Abstract;
 using FastFoodUI.Dtos.AccountDtos;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Newtonsoft.Json;
+using System.Net;
 using System.Text;
 
 namespace FastFoodUI.Controllers
@@ -15,7 +17,7 @@ namespace FastFoodUI.Controllers
             _httpClient = new HttpClient();
             _httpClient.BaseAddress = new Uri("https://localhost:7088/api/Account/");
             _httpClient.DefaultRequestHeaders.Accept.Clear();
-            _httpClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+          
         }
 
         [HttpGet]
@@ -32,9 +34,16 @@ namespace FastFoodUI.Controllers
             HttpResponseMessage responseMessage = await _httpClient.PostAsync("SignIn", content);
             if (responseMessage.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index", "Home");
+                ViewBag.UserSignInMessageSuccess = "Giris Basarili Yonlendiriliyorusunuz..";
+                return View();
             }
-            return NotFound("404");
+            else if (responseMessage.StatusCode== HttpStatusCode.Unauthorized)
+            {
+                ViewBag.UserSignInMessageErr = "Kullanici Adi Veya Sifre Hatali";
+                return View();
+            }
+           
+            return View("Bir Hatayla Karşılaşıldı Yetkiliyle İletişime geçin..");
         }
         [HttpGet]
         public IActionResult SignUp()
@@ -49,13 +58,35 @@ namespace FastFoodUI.Controllers
             var jsonData= JsonConvert.SerializeObject(signUpDto);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             HttpResponseMessage responseMessage = await _httpClient.PostAsync("SignUp", content);
+            if (signUpDto.UserPhoneNumber.Length!=10)
+            {
+                ViewBag.UserNumber = "10 karakter girin (5xx xxx xx xx)";
+                return View();
+            }
             if (responseMessage.IsSuccessStatusCode)
             {
-                ViewBag.UserCreateSuccess = "Basariyla Kayit oldunuz";
-                return RedirectToAction("SignIn");
+                ViewBag.UserCreateSuccess = "Kayit Basarili Giris Ekranina Yonlendiriliyorsunuz..";
+                return View();
             }
-            return NotFound( "Kayit Basarisiz");
-        }
+          
+            else if (responseMessage.StatusCode == HttpStatusCode.BadRequest)
+            {
+                ViewBag.UserCreateMail = "Bu Mail Adresi Daha Once Kullanilmis";
+                return View();
+            }
+            else if(responseMessage.StatusCode== HttpStatusCode.InternalServerError)
+            {
+                ViewBag.UserCreateUser = "Bu Kullanici Adi Daha Once Alinmis.";
+                return View(signUpDto);
+                }
+           
+            else
+            {
+                return View() ;
+            }
+           
+           
+        } 
 
         public IActionResult SignOut()
         {
